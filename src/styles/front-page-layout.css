@@ -1,0 +1,301 @@
+/* =========================================================
+   PRO PICK 'EM - FRONT PAGE LAYOUT
+   Controls only the title-page composition.
+   This file must load LAST.
+   ========================================================= */
+@media (min-width: 1181px) {
+  .splash-screen {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 500px;
+    background: #06111f;
+  }
+  .splash-stage {
+    min-width: 0;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    padding: 24px 18px 126px;
+    background-image: url("/stadium-command-center.png");
+    background-position: center;
+    background-size: cover;
+    isolation: isolate;
+  }
+  .splash-logo {
+    position: relative;
+    z-index: 5;
+    width: max-content;
+    padding: 0;
+  }
+  .splash-content-container {
+    position: absolute;
+    inset: 76px 18px 126px;
+    z-index: 4;
+    width: auto;
+    height: auto;
+    margin: 0;
+    display: grid;
+    grid-template-columns:
+      minmax(410px, 1fr)
+      clamp(80px, 8vw, 140px)
+      minmax(410px, 1fr);
+    grid-template-rows: minmax(245px, auto) minmax(0, 1fr);
+    column-gap: 18px;
+    row-gap: 48px;
+    align-items: stretch;
+  }
+  .splash-content-container .splash-card {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    width: auto;
+    max-width: none;
+    margin: 0;
+    transform: none;
+  }
+  .splash-content-container .game-of-week-card {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    justify-self: center;
+    width: min(980px, 84%);
+    min-height: 245px;
+    padding: 10px 24px 8px;
+  }
+  .game-of-week-card .splash-card-heading {
+    min-height: 34px;
+    padding-bottom: 6px;
+  }
+  .game-of-week-card .splash-card-heading strong {
+    font-size: 1.12rem;
+  }
+  .game-of-week-card .splash-card-heading span {
+    margin-top: 2px;
+    font-size: 0.66rem;
+  }
+  .game-of-week-card .featured-matchup {
+    min-height: 125px;
+    padding: 5px 0 3px;
+    grid-template-columns: 1fr 74px 1fr;
+  }
+  .game-of-week-card .helmet-placeholder {
+    width: 108px;
+    height: 86px;
+    margin-bottom: 2px;
+    font-size: 1.4rem;
+  }
+  .game-of-week-card .featured-team small {
+    font-size: 0.78rem;
+  }
+  .game-of-week-card .featured-team > strong {
+    font-size: 1.3rem;
+  }
+  .game-of-week-card .featured-team b {
+    font-size: 2.6rem;
+  }
+  .game-of-week-card .featured-team em {
+    font-size: 0.72rem;
+  }
+  .game-of-week-card .featured-versus {
+    font-size: 2rem;
+  }
+  .game-of-week-card .pick-percentage-bar {
+    height: 9px;
+  }
+  .game-of-week-card .percentage-caption {
+    margin-top: 4px;
+    font-size: 0.64rem;
+  }
+  .splash-lower-panels {
+    grid-column: 1 / 4;
+    grid-row: 2;
+    min-width: 0;
+    display: grid;
+    grid-template-columns:
+      minmax(410px, 1fr)
+      clamp(80px, 8vw, 140px)
+      minmax(410px, 1fr);
+    column-gap: 18px;
+    align-items: start;
+  }
+  .splash-lower-panels .season-leaders-card {
+    grid-column: 1;
+  }
+  .splash-lower-panels .this-week-card {
+    grid-column: 3;
+  }
+  .splash-lower-panels .season-leaders-card,
+  .splash-lower-panels .this-week-card {
+    align-self: start;
+    width: 100%;
+    min-height: 380px;
+    padding: 18px 20px;
+    margin-top: 12px;
+  }
+  .splash-lower-panels .splash-card-heading {
+    min-height: 44px;
+    padding-bottom: 10px;
+  }
+  .splash-lower-panels .splash-card-heading strong {
+    font-size: 1.1rem;
+  }
+  .splash-lower-panels .splash-card-heading span {
+    font-size: 0.72rem;
+  }
+  .splash-lower-panels .splash-leader-row {
+    min-height: 46px;
+    padding: 5px 8px;
+    grid-template-columns: 28px 38px 1fr 44px 28px;
+    gap: 8px;
+  }
+  .splash-lower-panels .splash-leader-row .avatar {
+    width: 34px;
+    height: 34px;
+    font-size: 0.72rem;
+  }
+  .splash-lower-panels .splash-leader-row > strong {
+    font-size: 0.94rem;
+  }
+  .splash-lower-panels .splash-leader-row > b {
+    font-size: 1.28rem;
+  }
+  .splash-lower-panels .splash-leader-row > small {
+    font-size: 0.6rem;
+  }
+  .splash-lower-panels .leaderboard-link {
+    min-height: 40px;
+    margin-top: 10px;
+    font-size: 0.74rem;
+  }
+  .splash-lower-panels .week-stat-grid {
+    margin-top: 12px;
+  }
+  .splash-lower-panels .week-stat-grid > div {
+    min-height: 96px;
+  }
+  .splash-lower-panels .week-stat-grid strong {
+    margin: 3px 0;
+    font-size: 2.3rem;
+  }
+  .splash-lower-panels .week-stat-grid span {
+    font-size: 0.66rem;
+  }
+  .splash-lower-panels .next-lock-panel {
+    margin-top: 12px;
+    padding-top: 12px;
+    gap: 10px;
+  }
+  .splash-lower-panels .next-lock-panel span {
+    font-size: 0.7rem;
+  }
+  .splash-lower-panels .next-lock-panel strong {
+    margin: 3px 0;
+    font-size: 1.12rem;
+  }
+  .splash-lower-panels .next-lock-panel small {
+    font-size: 0.58rem;
+  }
+  .splash-feature-ribbon {
+    right: 18px;
+    bottom: 18px;
+    left: 18px;
+    min-height: 76px;
+    padding: 10px 16px;
+  }
+  .splash-feature-ribbon > div {
+    padding: 6px 14px;
+  }
+  .splash-feature-ribbon strong {
+    font-size: 0.84rem;
+  }
+  .splash-feature-ribbon small {
+    font-size: 0.64rem;
+  }
+  .splash-login-column {
+    min-height: 100vh;
+    padding: 44px 36px;
+  }
+  .splash-login-card {
+    width: min(430px, 100%);
+    padding: 44px 38px;
+  }
+  .login-brand > strong {
+    font-size: 3.3rem;
+  }
+  .login-brand > span {
+    font-size: 1.58rem;
+  }
+  .login-brand p {
+    max-width: 360px;
+    font-size: 0.94rem;
+  }
+  .splash-login-card > label {
+    margin-bottom: 20px;
+    font-size: 0.86rem;
+  }
+  .splash-login-card input {
+    min-height: 58px;
+    font-size: 0.92rem;
+  }
+  .stadium-button,
+  .create-account-button {
+    min-height: 60px;
+    font-size: 0.94rem;
+  }
+}
+@media (min-width: 1181px) and (max-height: 900px) {
+  .splash-content-container {
+    inset: 70px 16px 106px;
+    grid-template-rows: minmax(220px, auto) minmax(0, 1fr);
+    row-gap: 14px;
+  }
+  .splash-content-container .game-of-week-card {
+    min-height: 220px;
+  }
+  .game-of-week-card .featured-matchup {
+    min-height: 112px;
+  }
+  .splash-lower-panels .season-leaders-card,
+  .splash-lower-panels .this-week-card {
+    min-height: 300px;
+    padding: 14px 18px;
+  }
+  .splash-lower-panels .splash-leader-row {
+    min-height: 40px;
+    padding: 3px 7px;
+  }
+  .splash-lower-panels .week-stat-grid > div {
+    min-height: 80px;
+  }
+  .splash-feature-ribbon {
+    min-height: 66px;
+    bottom: 12px;
+  }
+}
+@media (min-width: 761px) and (max-width: 1180px) {
+  .splash-content-container {
+    width: calc(100% - 40px);
+    margin: 18px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .splash-content-container .game-of-week-card {
+    position: relative;
+    width: 100%;
+    max-width: none;
+    min-height: 245px;
+  }
+  .splash-lower-panels {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+  .splash-lower-panels .season-leaders-card,
+  .splash-lower-panels .this-week-card {
+    position: relative;
+    width: 100%;
+    min-height: 310px;
+  }
+}

@@ -1,0 +1,43 @@
+@media (max-width: 1500px) {
+  .splash-screen { grid-template-columns: minmax(0, 1fr) 450px; }
+  .splash-content-container {
+    grid-template-columns: minmax(390px, 1fr) minmax(390px, 1fr);
+    column-gap: clamp(55px, 8vw, 140px);
+  }
+  .game-of-week-card { width: min(900px, 82%); }
+  .splash-login-card { width: min(430px, 100%); padding: 34px 30px; }
+}
+
+@media (max-width: 1120px) {
+  .splash-screen { grid-template-columns: 1fr; }
+  .splash-stage { min-height: 1120px; }
+  .splash-content-container {
+    height: auto;
+    min-height: 900px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 24px;
+  }
+  .game-of-week-card { width: min(880px, 94%); }
+  .splash-login-column { min-height: auto; padding: 60px 24px; }
+}
+
+@media (max-width: 760px) {
+  .splash-stage { min-height: 760px; padding: 22px 16px 40px; }
+  .splash-content-container {
+    height: auto;
+    min-height: 0;
+    margin-top: 90px;
+    display: block;
+  }
+  .game-of-week-card { width: 100%; padding: 18px; }
+  .featured-matchup { grid-template-columns: 1fr 44px 1fr; }
+  .helmet-placeholder { width: 96px; height: 82px; font-size: 1.2rem; }
+  .featured-team > strong { font-size: 1.1rem; }
+  .featured-team b { font-size: 2.2rem; }
+  .featured-versus { font-size: 1.55rem; }
+  .season-leaders-card,
+  .this-week-card,
+  .splash-feature-ribbon { display: none; }
+  .splash-login-column { padding: 34px 18px; }
+  .splash-login-card { padding: 28px 22px; }
+}

@@ -1,0 +1,82 @@
+.season-leaders-card {
+  grid-column: 1;
+  grid-row: 2;
+  padding: 24px 28px;
+}
+
+.splash-leader-row {
+  min-height: 52px;
+  padding: 8px 10px;
+  display: grid;
+  grid-template-columns: 34px 34px 1fr 54px 36px;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid rgba(138, 173, 211, 0.19);
+  color: #dbe7f3;
+}
+
+.splash-leader-row.current {
+  margin: 3px -8px;
+  padding-right: 18px;
+  padding-left: 18px;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(43, 103, 197, 0.72),
+    rgba(35, 79, 139, 0.45)
+  );
+}
+
+.leader-rank {
+  color: #b4c3d2;
+  font-family: Oswald, sans-serif;
+  font-size: 1.28rem;
+}
+
+.splash-leader-row .avatar {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-size: 0.82rem;
+}
+
+.splash-leader-row .helmet-image {
+  width: 28px !important;
+  height: 28px !important;
+}
+
+.splash-leader-row > strong {
+  font-size: 1.08rem;
+}
+
+.splash-leader-row > b {
+  color: var(--gold);
+  font-family: Oswald, sans-serif;
+  font-size: 1.68rem;
+}
+
+.splash-leader-row > small {
+  color: #879bb1;
+  font-size: 0.7rem;
+}
+
+.leaderboard-link {
+  width: 100%;
+  min-height: 48px;
+  margin-top: 18px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  border: 1px solid #3d73ab;
+  border-radius: 9px;
+  color: #e8f1fa;
+  background: #112c48;
+  font-size: 0.84rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}

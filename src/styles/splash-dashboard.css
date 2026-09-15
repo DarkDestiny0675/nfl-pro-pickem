@@ -1,0 +1,249 @@
+/* =========================================================
+   Pro Pick 'Em Splash Dashboard
+
+   This file controls only the three information panels:
+   1. Game of the Week
+   2. Season Leaders
+   3. This Week
+
+   The login panel and bottom feature ribbon are intentionally
+   not changed in this file.
+   ========================================================= */
+
+@media (min-width: 1041px) {
+  .splash-stage {
+    display: block;
+    position: relative;
+    padding: 28px 34px 142px;
+  }
+
+  .splash-content-container {
+    width: calc(100% - 56px);
+    max-width: 1295px;
+    margin: 18px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+  }
+
+  .splash-content-container .splash-card {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    margin: 0;
+  }
+
+  /* ---------------------------------------------------------
+     Game of the Week
+     Large, centered, and visually predominant.
+     --------------------------------------------------------- */
+  .splash-content-container .game-of-week-card {
+    width: 790px;
+    max-width: calc(100% - 80px);
+    min-height: 385px;
+    padding: 24px 30px;
+  }
+
+  .game-of-week-card .splash-card-heading {
+    min-height: 44px;
+    padding-bottom: 14px;
+  }
+
+  .game-of-week-card .featured-matchup {
+    min-height: 255px;
+    padding: 18px 0 12px;
+  }
+
+  .game-of-week-card .helmet-placeholder {
+    width: 132px;
+    height: 110px;
+    margin-bottom: 8px;
+    font-size: 1.55rem;
+  }
+
+  .game-of-week-card .featured-team > strong {
+    font-size: 1.5rem;
+  }
+
+  .game-of-week-card .featured-team b {
+    font-size: 3rem;
+  }
+
+  .game-of-week-card .featured-versus {
+    font-size: 2.35rem;
+  }
+
+  /* ---------------------------------------------------------
+     Lower dashboard row
+     Equal-size cards with open stadium space between them.
+     --------------------------------------------------------- */
+  .splash-lower-panels {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 280px;
+    align-items: stretch;
+  }
+
+  .splash-lower-panels .season-leaders-card,
+  .splash-lower-panels .this-week-card {
+    width: 100%;
+    min-height: 390px;
+    padding: 22px 24px;
+  }
+
+  .splash-lower-panels .splash-card-heading {
+    min-height: 42px;
+    padding-bottom: 13px;
+  }
+
+  /* ---------------------------------------------------------
+     Season Leaders content sizing
+     --------------------------------------------------------- */
+  .splash-lower-panels .splash-leader-row {
+    min-height: 48px;
+    padding: 7px 9px;
+    grid-template-columns: 26px 38px 1fr 42px 28px;
+    gap: 9px;
+  }
+
+  .splash-lower-panels .splash-leader-row .avatar {
+    width: 34px;
+    height: 34px;
+    font-size: 0.72rem;
+  }
+
+  .splash-lower-panels .splash-leader-row > strong {
+    font-size: 0.9rem;
+  }
+
+  .splash-lower-panels .splash-leader-row > b {
+    font-size: 1.3rem;
+  }
+
+  .splash-lower-panels .leaderboard-link {
+    min-height: 42px;
+    margin-top: 14px;
+    font-size: 0.74rem;
+  }
+
+  /* ---------------------------------------------------------
+     This Week content sizing
+     --------------------------------------------------------- */
+  .splash-lower-panels .week-stat-grid {
+    margin-top: 14px;
+  }
+
+  .splash-lower-panels .week-stat-grid > div {
+    min-height: 112px;
+  }
+
+  .splash-lower-panels .week-stat-grid strong {
+    margin: 4px 0;
+    font-size: 2.2rem;
+  }
+
+  .splash-lower-panels .week-stat-grid span {
+    font-size: 0.65rem;
+  }
+
+  .splash-lower-panels .next-lock-panel {
+    margin-top: 18px;
+    padding-top: 17px;
+    gap: 12px;
+  }
+
+  .splash-lower-panels .next-lock-panel strong {
+    margin: 4px 0;
+    font-size: 1.12rem;
+  }
+
+  .splash-lower-panels .next-lock-panel small {
+    font-size: 0.58rem;
+  }
+}
+
+/* =========================================================
+   Medium desktop and laptop layouts
+   ========================================================= */
+@media (min-width: 1041px) and (max-width: 1550px) {
+  .splash-content-container {
+    width: calc(100% - 44px);
+  }
+
+  .splash-lower-panels {
+    gap: clamp(80px, 14vw, 210px);
+  }
+}
+
+/* =========================================================
+   Tablet layouts
+   ========================================================= */
+@media (min-width: 761px) and (max-width: 1040px) {
+  .splash-content-container {
+    width: calc(100% - 48px);
+    margin: 18px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .splash-content-container .splash-card {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    margin: 0;
+  }
+
+  .splash-content-container .game-of-week-card {
+    width: min(760px, 100%);
+    max-width: 100%;
+    min-height: 330px;
+  }
+
+  .splash-lower-panels {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+  }
+
+  .splash-lower-panels .season-leaders-card,
+  .splash-lower-panels .this-week-card {
+    width: 100%;
+    min-height: 300px;
+  }
+}
+
+/* =========================================================
+   Mobile layout
+   Existing mobile behavior is preserved.
+   ========================================================= */
+@media (max-width: 760px) {
+  .splash-content-container {
+    width: 92%;
+    margin: 105px auto 0;
+  }
+
+  .splash-lower-panels {
+    display: none;
+  }
+
+  .splash-content-container .game-of-week-card {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    width: 100%;
+    transform: none;
+  }
+}

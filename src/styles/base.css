@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap");
+
+:root {
+  font-family: Inter, system-ui, sans-serif;
+  color: #eaf0f7;
+  background: #07111f;
+  font-synthesis: none;
+  --navy: #07111f;
+  --navy-2: #0b192b;
+  --panel: #102138;
+  --panel-2: #142a45;
+  --line: #243a55;
+  --text: #eaf0f7;
+  --muted: #93a6bc;
+  --blue: #4f8cff;
+  --blue-2: #2d68dc;
+  --green: #39d98a;
+  --gold: #f6c65b;
+  --purple: #a78bfa;
+  --red: #f87171;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: radial-gradient(circle at 80% 0%, #112b49 0, #07111f 35%);
+}
+button,
+input,
+select {
+  font: inherit;
+}
+button {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: not-allowed;
+}
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+h1,
+h2,
+.brand-lockup strong {
+  font-family: Oswald, Inter, sans-serif;
+  letter-spacing: 0.02em;
+}
+h1 {
+  margin-bottom: 8px;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1;
+}
+h2 {
+  margin-bottom: 6px;
+  font-size: 1.45rem;
+}
+p {
+  color: var(--muted);
+  line-height: 1.6;
+}
+

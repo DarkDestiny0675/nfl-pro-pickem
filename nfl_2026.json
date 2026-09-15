@@ -1,0 +1,5929 @@
+{
+  "schemaVersion": "1.0.0",
+  "season": 2026,
+  "league": {
+    "id": "NFL",
+    "name": "National Football League",
+    "abbreviation": "NFL"
+  },
+  "seasonType": "REG",
+  "regularSeasonWeeks": 18,
+  "regularSeasonGames": 272,
+  "generatedAtUTC": "2026-09-04T05:43:00Z",
+  "source": {
+    "primary": "CBS Sports 2026 NFL schedule",
+    "secondary": "Fixture Download / ESPN-derived schedule snapshot",
+    "notes": [
+      "KickoffET is Eastern Time as published.",
+      "kickoffUTC is calculated from kickoffET using America/New_York DST rules.",
+      "TBD kickoff times remain null in kickoffUTC.",
+      "Week 16-18 flex scheduling can change times/networks.",
+      "Scores are initialized to null because this is a preseason schedule snapshot."
+    ]
+  },
+  "teams": {
+    "ARI": {
+      "id": "ARI",
+      "name": "Arizona Cardinals",
+      "conference": "NFC",
+      "division": "West",
+      "market": "Arizona",
+      "stadiumId": "ARI"
+    },
+    "ATL": {
+      "id": "ATL",
+      "name": "Atlanta Falcons",
+      "conference": "NFC",
+      "division": "South",
+      "market": "Atlanta",
+      "stadiumId": "ATL"
+    },
+    "BAL": {
+      "id": "BAL",
+      "name": "Baltimore Ravens",
+      "conference": "AFC",
+      "division": "North",
+      "market": "Baltimore",
+      "stadiumId": "BAL"
+    },
+    "BUF": {
+      "id": "BUF",
+      "name": "Buffalo Bills",
+      "conference": "AFC",
+      "division": "East",
+      "market": "Buffalo",
+      "stadiumId": "BUF"
+    },
+    "CAR": {
+      "id": "CAR",
+      "name": "Carolina Panthers",
+      "conference": "NFC",
+      "division": "South",
+      "market": "Carolina",
+      "stadiumId": "CAR"
+    },
+    "CHI": {
+      "id": "CHI",
+      "name": "Chicago Bears",
+      "conference": "NFC",
+      "division": "North",
+      "market": "Chicago",
+      "stadiumId": "CHI"
+    },
+    "CIN": {
+      "id": "CIN",
+      "name": "Cincinnati Bengals",
+      "conference": "AFC",
+      "division": "North",
+      "market": "Cincinnati",
+      "stadiumId": "CIN"
+    },
+    "CLE": {
+      "id": "CLE",
+      "name": "Cleveland Browns",
+      "conference": "AFC",
+      "division": "North",
+      "market": "Cleveland",
+      "stadiumId": "CLE"
+    },
+    "DAL": {
+      "id": "DAL",
+      "name": "Dallas Cowboys",
+      "conference": "NFC",
+      "division": "East",
+      "market": "Dallas",
+      "stadiumId": "DAL"
+    },
+    "DEN": {
+      "id": "DEN",
+      "name": "Denver Broncos",
+      "conference": "AFC",
+      "division": "West",
+      "market": "Denver",
+      "stadiumId": "DEN"
+    },
+    "DET": {
+      "id": "DET",
+      "name": "Detroit Lions",
+      "conference": "NFC",
+      "division": "North",
+      "market": "Detroit",
+      "stadiumId": "DET"
+    },
+    "GB": {
+      "id": "GB",
+      "name": "Green Bay Packers",
+      "conference": "NFC",
+      "division": "North",
+      "market": "Green Bay",
+      "stadiumId": "GB"
+    },
+    "HOU": {
+      "id": "HOU",
+      "name": "Houston Texans",
+      "conference": "AFC",
+      "division": "South",
+      "market": "Houston",
+      "stadiumId": "HOU"
+    },
+    "IND": {
+      "id": "IND",
+      "name": "Indianapolis Colts",
+      "conference": "AFC",
+      "division": "South",
+      "market": "Indianapolis",
+      "stadiumId": "IND"
+    },
+    "JAX": {
+      "id": "JAX",
+      "name": "Jacksonville Jaguars",
+      "conference": "AFC",
+      "division": "South",
+      "market": "Jacksonville",
+      "stadiumId": "JAX"
+    },
+    "KC": {
+      "id": "KC",
+      "name": "Kansas City Chiefs",
+      "conference": "AFC",
+      "division": "West",
+      "market": "Kansas City",
+      "stadiumId": "KC"
+    },
+    "LV": {
+      "id": "LV",
+      "name": "Las Vegas Raiders",
+      "conference": "AFC",
+      "division": "West",
+      "market": "Las Vegas",
+      "stadiumId": "LV"
+    },
+    "LAC": {
+      "id": "LAC",
+      "name": "Los Angeles Chargers",
+      "conference": "AFC",
+      "division": "West",
+      "market": "Los Angeles",
+      "stadiumId": "LAC"
+    },
+    "LAR": {
+      "id": "LAR",
+      "name": "Los Angeles Rams",
+      "conference": "NFC",
+      "division": "West",
+      "market": "Los Angeles",
+      "stadiumId": "LAR"
+    },
+    "MIA": {
+      "id": "MIA",
+      "name": "Miami Dolphins",
+      "conference": "AFC",
+      "division": "East",
+      "market": "Miami",
+      "stadiumId": "MIA"
+    },
+    "MIN": {
+      "id": "MIN",
+      "name": "Minnesota Vikings",
+      "conference": "NFC",
+      "division": "North",
+      "market": "Minnesota",
+      "stadiumId": "MIN"
+    },
+    "NE": {
+      "id": "NE",
+      "name": "New England Patriots",
+      "conference": "AFC",
+      "division": "East",
+      "market": "New England",
+      "stadiumId": "NE"
+    },
+    "NO": {
+      "id": "NO",
+      "name": "New Orleans Saints",
+      "conference": "NFC",
+      "division": "South",
+      "market": "New Orleans",
+      "stadiumId": "NO"
+    },
+    "NYG": {
+      "id": "NYG",
+      "name": "New York Giants",
+      "conference": "NFC",
+      "division": "East",
+      "market": "New York",
+      "stadiumId": "NYG"
+    },
+    "NYJ": {
+      "id": "NYJ",
+      "name": "New York Jets",
+      "conference": "AFC",
+      "division": "East",
+      "market": "New York",
+      "stadiumId": "NYJ"
+    },
+    "PHI": {
+      "id": "PHI",
+      "name": "Philadelphia Eagles",
+      "conference": "NFC",
+      "division": "East",
+      "market": "Philadelphia",
+      "stadiumId": "PHI"
+    },
+    "PIT": {
+      "id": "PIT",
+      "name": "Pittsburgh Steelers",
+      "conference": "AFC",
+      "division": "North",
+      "market": "Pittsburgh",
+      "stadiumId": "PIT"
+    },
+    "SF": {
+      "id": "SF",
+      "name": "San Francisco 49ers",
+      "conference": "NFC",
+      "division": "West",
+      "market": "San Francisco",
+      "stadiumId": "SF"
+    },
+    "SEA": {
+      "id": "SEA",
+      "name": "Seattle Seahawks",
+      "conference": "NFC",
+      "division": "West",
+      "market": "Seattle",
+      "stadiumId": "SEA"
+    },
+    "TB": {
+      "id": "TB",
+      "name": "Tampa Bay Buccaneers",
+      "conference": "NFC",
+      "division": "South",
+      "market": "Tampa Bay",
+      "stadiumId": "TB"
+    },
+    "TEN": {
+      "id": "TEN",
+      "name": "Tennessee Titans",
+      "conference": "AFC",
+      "division": "South",
+      "market": "Tennessee",
+      "stadiumId": "TEN"
+    },
+    "WAS": {
+      "id": "WAS",
+      "name": "Washington Commanders",
+      "conference": "NFC",
+      "division": "East",
+      "market": "Washington",
+      "stadiumId": "WAS"
+    }
+  },
+  "stadiums": {
+    "ARI": {
+      "name": "State Farm Stadium",
+      "city": "Glendale",
+      "state": "AZ",
+      "country": "USA",
+      "timezone": "America/Phoenix"
+    },
+    "ATL": {
+      "name": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "state": "GA",
+      "country": "USA",
+      "timezone": "America/New_York"
+    },
+    "BAL": {
+      "name": "M&T Bank Stadium",
+      "city": "Baltimore",
+      "state": "MD",
+      "country": "USA",
+      "timezone": "America/New_York"
+    },
+    "BUF": {
+      "name": "Highmark Stadium",
+      "city": "Orchard Park",
+      "state": "NY",
+      "country": "USA",
+      "timezone": "America/New_York"
+    },
+    "CAR": {
+      "name": "Bank of America Stadium",
+      "city": "Charlotte",
+      "state": "NC",
+      "country": "USA",
+      "timezone": "America/New_York"
+    },
+    "CHI": {
+      "name": "Soldier Field",
+      "city": "Chicago",
+      "state": "IL",
+      "country": "USA",
+      "timezone": "America/Chicago"
+    },
+    "CIN": {
+      "name": "Paycor Stadium",
+      "city": "Cincinnati",
+      "state": "OH",
+      "country": "USA",
+      "timezone": "America/New_York"
+    },
+    "CLE": {
+      "name": "Huntington Bank Field",
+      "city": "Cleveland",
+      "state": "OH",
+      "country": "USA",
+      "timezone": "America/New_York"
+    },
+    "DAL": {
+      "name": "AT&T Stadium",
+      "city": "Arlington",
+      "state": "TX",
+      "country": "USA",
+      "timezone": "America/Chicago"
+    },
+    "DEN": {
+      "name": "Empower Field at Mile High",
+      "city": "Denver",
+      "state": "CO",
+      "country": "USA",
+      "timezone": "America/Denver"
+    },
+    "DET": {
+      "name": "Ford Field",
+      "city": "Detroit",
+      "state": "MI",
+      "country": "USA",
+      "timezone": "America/Detroit"
+    },
+    "GB": {
+      "name": "Lambeau Field",
+      "city": "Green Bay",
+      "state": "WI",
+      "country": "USA",
+      "timezone": "America/Chicago"
+    },
+    "HOU": {
+      "name": "NRG Stadium",
+      "city": "Houston",
+      "state": "TX",
+      "country": "USA",
+      "timezone": "America/Chicago"
+    },
+    "IND": {
+      "name": "Lucas Oil Stadium",
+      "city": "Indianapolis",
+      "state": "IN",
+      "country": "USA",
+      "timezone": "America/Indiana/Indianapolis"
+    },
+    "JAX": {
+      "name": "EverBank Stadium",
+      "city": "Jacksonville",
+      "state": "FL",
+      "country": "USA",
+      "timezone": "America/New_York"
+    },
+    "KC": {
+      "name": "GEHA Field at Arrowhead Stadium",
+      "city": "Kansas City",
+      "state": "MO",
+      "country": "USA",
+      "timezone": "America/Chicago"
+    },
+    "LV": {
+      "name": "Allegiant Stadium",
+      "city": "Las Vegas",
+      "state": "NV",
+      "country": "USA",
+      "timezone": "America/Los_Angeles"
+    },
+    "LAC": {
+      "name": "SoFi Stadium",
+      "city": "Inglewood",
+      "state": "CA",
+      "country": "USA",
+      "timezone": "America/Los_Angeles"
+    },
+    "LAR": {
+      "name": "SoFi Stadium",
+      "city": "Inglewood",
+      "state": "CA",
+      "country": "USA",
+      "timezone": "America/Los_Angeles"
+    },
+    "MIA": {
+      "name": "Hard Rock Stadium",
+      "city": "Miami Gardens",
+      "state": "FL",
+      "country": "USA",
+      "timezone": "America/New_York"
+    },
+    "MIN": {
+      "name": "U.S. Bank Stadium",
+      "city": "Minneapolis",
+      "state": "MN",
+      "country": "USA",
+      "timezone": "America/Chicago"
+    },
+    "NE": {
+      "name": "Gillette Stadium",
+      "city": "Foxborough",
+      "state": "MA",
+      "country": "USA",
+      "timezone": "America/New_York"
+    },
+    "NO": {
+      "name": "Caesars Superdome",
+      "city": "New Orleans",
+      "state": "LA",
+      "country": "USA",
+      "timezone": "America/Chicago"
+    },
+    "NYG": {
+      "name": "MetLife Stadium",
+      "city": "East Rutherford",
+      "state": "NJ",
+      "country": "USA",
+      "timezone": "America/New_York"
+    },
+    "NYJ": {
+      "name": "MetLife Stadium",
+      "city": "East Rutherford",
+      "state": "NJ",
+      "country": "USA",
+      "timezone": "America/New_York"
+    },
+    "PHI": {
+      "name": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "state": "PA",
+      "country": "USA",
+      "timezone": "America/New_York"
+    },
+    "PIT": {
+      "name": "Acrisure Stadium",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "country": "USA",
+      "timezone": "America/New_York"
+    },
+    "SF": {
+      "name": "Levi's Stadium",
+      "city": "Santa Clara",
+      "state": "CA",
+      "country": "USA",
+      "timezone": "America/Los_Angeles"
+    },
+    "SEA": {
+      "name": "Lumen Field",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA",
+      "timezone": "America/Los_Angeles"
+    },
+    "TB": {
+      "name": "Raymond James Stadium",
+      "city": "Tampa",
+      "state": "FL",
+      "country": "USA",
+      "timezone": "America/New_York"
+    },
+    "TEN": {
+      "name": "Nissan Stadium",
+      "city": "Nashville",
+      "state": "TN",
+      "country": "USA",
+      "timezone": "America/Chicago"
+    },
+    "WAS": {
+      "name": "Northwest Stadium",
+      "city": "Landover",
+      "state": "MD",
+      "country": "USA",
+      "timezone": "America/New_York"
+    },
+    "INT_MEL": {
+      "name": "Melbourne Cricket Ground",
+      "city": "Melbourne",
+      "state": "VIC",
+      "country": "Australia",
+      "timezone": "Australia/Melbourne"
+    },
+    "INT_RIO": {
+      "name": "Estádio do Maracanã",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "country": "Brazil",
+      "timezone": "America/Sao_Paulo"
+    },
+    "INT_LON1": {
+      "name": "Tottenham Hotspur Stadium",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "timezone": "Europe/London"
+    },
+    "INT_LON2": {
+      "name": "Wembley Stadium",
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "timezone": "Europe/London"
+    },
+    "INT_PAR": {
+      "name": "Stade de France",
+      "city": "Saint-Denis",
+      "state": "Île-de-France",
+      "country": "France",
+      "timezone": "Europe/Paris"
+    },
+    "INT_MAD": {
+      "name": "Santiago Bernabéu Stadium",
+      "city": "Madrid",
+      "state": "Madrid",
+      "country": "Spain",
+      "timezone": "Europe/Madrid"
+    },
+    "INT_MUC": {
+      "name": "Allianz Arena",
+      "city": "Munich",
+      "state": "Bavaria",
+      "country": "Germany",
+      "timezone": "Europe/Berlin"
+    },
+    "INT_MEX": {
+      "name": "Estadio Banorte",
+      "city": "Mexico City",
+      "state": "CDMX",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City"
+    }
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "startDate": "2026-09-09",
+      "endDate": "2026-09-14",
+      "byeTeams": [],
+      "gameIds": [
+        "2026-001",
+        "2026-002",
+        "2026-003",
+        "2026-004",
+        "2026-005",
+        "2026-006",
+        "2026-007",
+        "2026-008",
+        "2026-009",
+        "2026-010",
+        "2026-011",
+        "2026-012",
+        "2026-013",
+        "2026-014",
+        "2026-015",
+        "2026-016"
+      ]
+    },
+    {
+      "week": 2,
+      "startDate": "2026-09-17",
+      "endDate": "2026-09-21",
+      "byeTeams": [],
+      "gameIds": [
+        "2026-017",
+        "2026-018",
+        "2026-019",
+        "2026-020",
+        "2026-021",
+        "2026-022",
+        "2026-023",
+        "2026-024",
+        "2026-025",
+        "2026-026",
+        "2026-027",
+        "2026-028",
+        "2026-029",
+        "2026-030",
+        "2026-031",
+        "2026-032"
+      ]
+    },
+    {
+      "week": 3,
+      "startDate": "2026-09-24",
+      "endDate": "2026-09-28",
+      "byeTeams": [],
+      "gameIds": [
+        "2026-033",
+        "2026-034",
+        "2026-035",
+        "2026-036",
+        "2026-037",
+        "2026-038",
+        "2026-039",
+        "2026-040",
+        "2026-041",
+        "2026-042",
+        "2026-043",
+        "2026-044",
+        "2026-045",
+        "2026-046",
+        "2026-047",
+        "2026-048"
+      ]
+    },
+    {
+      "week": 4,
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-05",
+      "byeTeams": [],
+      "gameIds": [
+        "2026-049",
+        "2026-050",
+        "2026-051",
+        "2026-052",
+        "2026-053",
+        "2026-054",
+        "2026-055",
+        "2026-056",
+        "2026-057",
+        "2026-058",
+        "2026-059",
+        "2026-060",
+        "2026-061",
+        "2026-062",
+        "2026-063",
+        "2026-064"
+      ]
+    },
+    {
+      "week": 5,
+      "startDate": "2026-10-08",
+      "endDate": "2026-10-12",
+      "byeTeams": [
+        "CAR",
+        "KC"
+      ],
+      "gameIds": [
+        "2026-065",
+        "2026-066",
+        "2026-067",
+        "2026-068",
+        "2026-069",
+        "2026-070",
+        "2026-071",
+        "2026-072",
+        "2026-073",
+        "2026-074",
+        "2026-075",
+        "2026-076",
+        "2026-077",
+        "2026-078",
+        "2026-079"
+      ]
+    },
+    {
+      "week": 6,
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-19",
+      "byeTeams": [
+        "CIN",
+        "DET",
+        "MIA",
+        "MIN"
+      ],
+      "gameIds": [
+        "2026-080",
+        "2026-081",
+        "2026-082",
+        "2026-083",
+        "2026-084",
+        "2026-085",
+        "2026-086",
+        "2026-087",
+        "2026-088",
+        "2026-089",
+        "2026-090",
+        "2026-091",
+        "2026-092",
+        "2026-093"
+      ]
+    },
+    {
+      "week": 7,
+      "startDate": "2026-10-22",
+      "endDate": "2026-10-26",
+      "byeTeams": [
+        "BUF",
+        "JAX",
+        "LAC",
+        "WAS"
+      ],
+      "gameIds": [
+        "2026-094",
+        "2026-095",
+        "2026-096",
+        "2026-097",
+        "2026-098",
+        "2026-099",
+        "2026-100",
+        "2026-101",
+        "2026-102",
+        "2026-103",
+        "2026-104",
+        "2026-105",
+        "2026-106",
+        "2026-107"
+      ]
+    },
+    {
+      "week": 8,
+      "startDate": "2026-10-29",
+      "endDate": "2026-11-02",
+      "byeTeams": [
+        "HOU",
+        "NO",
+        "NYG",
+        "SF"
+      ],
+      "gameIds": [
+        "2026-108",
+        "2026-109",
+        "2026-110",
+        "2026-111",
+        "2026-112",
+        "2026-113",
+        "2026-114",
+        "2026-115",
+        "2026-116",
+        "2026-117",
+        "2026-118",
+        "2026-119",
+        "2026-120",
+        "2026-121"
+      ]
+    },
+    {
+      "week": 9,
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-09",
+      "byeTeams": [
+        "PIT",
+        "TEN"
+      ],
+      "gameIds": [
+        "2026-122",
+        "2026-123",
+        "2026-124",
+        "2026-125",
+        "2026-126",
+        "2026-127",
+        "2026-128",
+        "2026-129",
+        "2026-130",
+        "2026-131",
+        "2026-132",
+        "2026-133",
+        "2026-134",
+        "2026-135",
+        "2026-136"
+      ]
+    },
+    {
+      "week": 10,
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-16",
+      "byeTeams": [
+        "CHI",
+        "DEN",
+        "PHI",
+        "TB"
+      ],
+      "gameIds": [
+        "2026-137",
+        "2026-138",
+        "2026-139",
+        "2026-140",
+        "2026-141",
+        "2026-142",
+        "2026-143",
+        "2026-144",
+        "2026-145",
+        "2026-146",
+        "2026-147",
+        "2026-148",
+        "2026-149",
+        "2026-150"
+      ]
+    },
+    {
+      "week": 11,
+      "startDate": "2026-11-19",
+      "endDate": "2026-11-23",
+      "byeTeams": [
+        "ATL",
+        "CLE",
+        "GB",
+        "LAR",
+        "NE",
+        "SEA"
+      ],
+      "gameIds": [
+        "2026-151",
+        "2026-152",
+        "2026-153",
+        "2026-154",
+        "2026-155",
+        "2026-156",
+        "2026-157",
+        "2026-158",
+        "2026-159",
+        "2026-160",
+        "2026-161",
+        "2026-162",
+        "2026-163"
+      ]
+    },
+    {
+      "week": 12,
+      "startDate": "2026-11-25",
+      "endDate": "2026-11-30",
+      "byeTeams": [],
+      "gameIds": [
+        "2026-164",
+        "2026-165",
+        "2026-166",
+        "2026-167",
+        "2026-168",
+        "2026-169",
+        "2026-170",
+        "2026-171",
+        "2026-172",
+        "2026-173",
+        "2026-174",
+        "2026-175",
+        "2026-176",
+        "2026-177",
+        "2026-178",
+        "2026-179"
+      ]
+    },
+    {
+      "week": 13,
+      "startDate": "2026-12-03",
+      "endDate": "2026-12-07",
+      "byeTeams": [
+        "BAL",
+        "IND",
+        "LV",
+        "NYJ"
+      ],
+      "gameIds": [
+        "2026-180",
+        "2026-181",
+        "2026-182",
+        "2026-183",
+        "2026-184",
+        "2026-185",
+        "2026-186",
+        "2026-187",
+        "2026-188",
+        "2026-189",
+        "2026-190",
+        "2026-191",
+        "2026-192",
+        "2026-193"
+      ]
+    },
+    {
+      "week": 14,
+      "startDate": "2026-12-10",
+      "endDate": "2026-12-14",
+      "byeTeams": [
+        "ARI",
+        "DAL"
+      ],
+      "gameIds": [
+        "2026-194",
+        "2026-195",
+        "2026-196",
+        "2026-197",
+        "2026-198",
+        "2026-199",
+        "2026-200",
+        "2026-201",
+        "2026-202",
+        "2026-203",
+        "2026-204",
+        "2026-205",
+        "2026-206",
+        "2026-207",
+        "2026-208"
+      ]
+    },
+    {
+      "week": 15,
+      "startDate": "2026-12-17",
+      "endDate": "2026-12-21",
+      "byeTeams": [],
+      "gameIds": [
+        "2026-209",
+        "2026-210",
+        "2026-211",
+        "2026-212",
+        "2026-213",
+        "2026-214",
+        "2026-215",
+        "2026-216",
+        "2026-217",
+        "2026-218",
+        "2026-219",
+        "2026-220",
+        "2026-221",
+        "2026-222",
+        "2026-223",
+        "2026-224"
+      ]
+    },
+    {
+      "week": 16,
+      "startDate": "2026-12-24",
+      "endDate": "2026-12-28",
+      "byeTeams": [],
+      "gameIds": [
+        "2026-225",
+        "2026-226",
+        "2026-227",
+        "2026-228",
+        "2026-229",
+        "2026-230",
+        "2026-231",
+        "2026-232",
+        "2026-233",
+        "2026-234",
+        "2026-235",
+        "2026-236",
+        "2026-237",
+        "2026-238",
+        "2026-239",
+        "2026-240"
+      ]
+    },
+    {
+      "week": 17,
+      "startDate": "2026-12-31",
+      "endDate": "2027-01-04",
+      "byeTeams": [],
+      "gameIds": [
+        "2026-241",
+        "2026-242",
+        "2026-243",
+        "2026-244",
+        "2026-245",
+        "2026-246",
+        "2026-247",
+        "2026-248",
+        "2026-249",
+        "2026-250",
+        "2026-251",
+        "2026-252",
+        "2026-253",
+        "2026-254",
+        "2026-255",
+        "2026-256"
+      ]
+    },
+    {
+      "week": 18,
+      "startDate": "2027-01-10",
+      "endDate": "2027-01-10",
+      "byeTeams": [],
+      "gameIds": [
+        "2026-257",
+        "2026-258",
+        "2026-259",
+        "2026-260",
+        "2026-261",
+        "2026-262",
+        "2026-263",
+        "2026-264",
+        "2026-265",
+        "2026-266",
+        "2026-267",
+        "2026-268",
+        "2026-269",
+        "2026-270",
+        "2026-271",
+        "2026-272"
+      ]
+    }
+  ],
+  "games": [
+    {
+      "gameId": "2026-001",
+      "week": 1,
+      "dateET": "2026-09-09",
+      "day": "Wednesday",
+      "kickoffET": "8:20 PM",
+      "kickoffUTC": "2026-09-10T00:20:00Z",
+      "status": "scheduled",
+      "awayTeam": "NE",
+      "homeTeam": "SEA",
+      "stadium": "SEA",
+      "network": "NBC",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-002",
+      "week": 1,
+      "dateET": "2026-09-10",
+      "day": "Thursday",
+      "kickoffET": "8:35 PM",
+      "kickoffUTC": "2026-09-11T00:35:00Z",
+      "status": "scheduled",
+      "awayTeam": "SF",
+      "homeTeam": "LAR",
+      "stadium": "INT_MEL",
+      "network": "Netflix",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "event": "International - Melbourne",
+      "flexible": false
+    },
+    {
+      "gameId": "2026-003",
+      "week": 1,
+      "dateET": "2026-09-13",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-13T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "CHI",
+      "homeTeam": "CAR",
+      "stadium": "CAR",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-004",
+      "week": 1,
+      "dateET": "2026-09-13",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-13T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "TB",
+      "homeTeam": "CIN",
+      "stadium": "CIN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-005",
+      "week": 1,
+      "dateET": "2026-09-13",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-13T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "NO",
+      "homeTeam": "DET",
+      "stadium": "DET",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-006",
+      "week": 1,
+      "dateET": "2026-09-13",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-13T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "BUF",
+      "homeTeam": "HOU",
+      "stadium": "HOU",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-007",
+      "week": 1,
+      "dateET": "2026-09-13",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-13T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "BAL",
+      "homeTeam": "IND",
+      "stadium": "IND",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-008",
+      "week": 1,
+      "dateET": "2026-09-13",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-13T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "CLE",
+      "homeTeam": "JAX",
+      "stadium": "JAX",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-009",
+      "week": 1,
+      "dateET": "2026-09-13",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-13T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "ATL",
+      "homeTeam": "PIT",
+      "stadium": "PIT",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-010",
+      "week": 1,
+      "dateET": "2026-09-13",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-13T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "NYJ",
+      "homeTeam": "TEN",
+      "stadium": "TEN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-011",
+      "week": 1,
+      "dateET": "2026-09-13",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-09-13T20:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "ARI",
+      "homeTeam": "LAC",
+      "stadium": "LAC",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-012",
+      "week": 1,
+      "dateET": "2026-09-13",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-09-13T20:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "MIA",
+      "homeTeam": "LV",
+      "stadium": "LV",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-013",
+      "week": 1,
+      "dateET": "2026-09-13",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-09-13T20:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "GB",
+      "homeTeam": "MIN",
+      "stadium": "MIN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-014",
+      "week": 1,
+      "dateET": "2026-09-13",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-09-13T20:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "WAS",
+      "homeTeam": "PHI",
+      "stadium": "PHI",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-015",
+      "week": 1,
+      "dateET": "2026-09-13",
+      "day": "Sunday",
+      "kickoffET": "8:20 PM",
+      "kickoffUTC": "2026-09-14T00:20:00Z",
+      "status": "scheduled",
+      "awayTeam": "DAL",
+      "homeTeam": "NYG",
+      "stadium": "NYG",
+      "network": "NBC",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-016",
+      "week": 1,
+      "dateET": "2026-09-14",
+      "day": "Monday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-09-15T00:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "DEN",
+      "homeTeam": "KC",
+      "stadium": "KC",
+      "network": "ESPN",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-017",
+      "week": 2,
+      "dateET": "2026-09-17",
+      "day": "Thursday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-09-18T00:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "DET",
+      "homeTeam": "BUF",
+      "stadium": "BUF",
+      "network": "Amazon",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-018",
+      "week": 2,
+      "dateET": "2026-09-20",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-20T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "CAR",
+      "homeTeam": "ATL",
+      "stadium": "ATL",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-019",
+      "week": 2,
+      "dateET": "2026-09-20",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-20T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "NO",
+      "homeTeam": "BAL",
+      "stadium": "BAL",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-020",
+      "week": 2,
+      "dateET": "2026-09-20",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-20T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "MIN",
+      "homeTeam": "CHI",
+      "stadium": "CHI",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-021",
+      "week": 2,
+      "dateET": "2026-09-20",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-20T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "CIN",
+      "homeTeam": "HOU",
+      "stadium": "HOU",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-022",
+      "week": 2,
+      "dateET": "2026-09-20",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-20T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "PIT",
+      "homeTeam": "NE",
+      "stadium": "NE",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-023",
+      "week": 2,
+      "dateET": "2026-09-20",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-20T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "GB",
+      "homeTeam": "NYJ",
+      "stadium": "NYJ",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-024",
+      "week": 2,
+      "dateET": "2026-09-20",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-20T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "CLE",
+      "homeTeam": "TB",
+      "stadium": "TB",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-025",
+      "week": 2,
+      "dateET": "2026-09-20",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-20T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "PHI",
+      "homeTeam": "TEN",
+      "stadium": "TEN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-026",
+      "week": 2,
+      "dateET": "2026-09-20",
+      "day": "Sunday",
+      "kickoffET": "4:05 PM",
+      "kickoffUTC": "2026-09-20T20:05:00Z",
+      "status": "scheduled",
+      "awayTeam": "JAX",
+      "homeTeam": "DEN",
+      "stadium": "DEN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-027",
+      "week": 2,
+      "dateET": "2026-09-20",
+      "day": "Sunday",
+      "kickoffET": "4:05 PM",
+      "kickoffUTC": "2026-09-20T20:05:00Z",
+      "status": "scheduled",
+      "awayTeam": "LV",
+      "homeTeam": "LAC",
+      "stadium": "LAC",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-028",
+      "week": 2,
+      "dateET": "2026-09-20",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-09-20T20:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "SEA",
+      "homeTeam": "ARI",
+      "stadium": "ARI",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-029",
+      "week": 2,
+      "dateET": "2026-09-20",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-09-20T20:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "WAS",
+      "homeTeam": "DAL",
+      "stadium": "DAL",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-030",
+      "week": 2,
+      "dateET": "2026-09-20",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-09-20T20:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "MIA",
+      "homeTeam": "SF",
+      "stadium": "SF",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-031",
+      "week": 2,
+      "dateET": "2026-09-20",
+      "day": "Sunday",
+      "kickoffET": "8:20 PM",
+      "kickoffUTC": "2026-09-21T00:20:00Z",
+      "status": "scheduled",
+      "awayTeam": "IND",
+      "homeTeam": "KC",
+      "stadium": "KC",
+      "network": "NBC",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-032",
+      "week": 2,
+      "dateET": "2026-09-21",
+      "day": "Monday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-09-22T00:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "NYG",
+      "homeTeam": "LAR",
+      "stadium": "LAR",
+      "network": "ESPN",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-033",
+      "week": 3,
+      "dateET": "2026-09-24",
+      "day": "Thursday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-09-25T00:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "ATL",
+      "homeTeam": "GB",
+      "stadium": "GB",
+      "network": "Amazon",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-034",
+      "week": 3,
+      "dateET": "2026-09-27",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-27T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "LAC",
+      "homeTeam": "BUF",
+      "stadium": "BUF",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-035",
+      "week": 3,
+      "dateET": "2026-09-27",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-27T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "CAR",
+      "homeTeam": "CLE",
+      "stadium": "CLE",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-036",
+      "week": 3,
+      "dateET": "2026-09-27",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-27T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "NYJ",
+      "homeTeam": "DET",
+      "stadium": "DET",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-037",
+      "week": 3,
+      "dateET": "2026-09-27",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-27T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "HOU",
+      "homeTeam": "IND",
+      "stadium": "IND",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-038",
+      "week": 3,
+      "dateET": "2026-09-27",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-27T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "NE",
+      "homeTeam": "JAX",
+      "stadium": "JAX",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-039",
+      "week": 3,
+      "dateET": "2026-09-27",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-27T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "KC",
+      "homeTeam": "MIA",
+      "stadium": "MIA",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-040",
+      "week": 3,
+      "dateET": "2026-09-27",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-27T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "TEN",
+      "homeTeam": "NYG",
+      "stadium": "NYG",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-041",
+      "week": 3,
+      "dateET": "2026-09-27",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-27T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "CIN",
+      "homeTeam": "PIT",
+      "stadium": "PIT",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-042",
+      "week": 3,
+      "dateET": "2026-09-27",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-09-27T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "SEA",
+      "homeTeam": "WAS",
+      "stadium": "WAS",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-043",
+      "week": 3,
+      "dateET": "2026-09-27",
+      "day": "Sunday",
+      "kickoffET": "4:05 PM",
+      "kickoffUTC": "2026-09-27T20:05:00Z",
+      "status": "scheduled",
+      "awayTeam": "ARI",
+      "homeTeam": "SF",
+      "stadium": "SF",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-044",
+      "week": 3,
+      "dateET": "2026-09-27",
+      "day": "Sunday",
+      "kickoffET": "4:05 PM",
+      "kickoffUTC": "2026-09-27T20:05:00Z",
+      "status": "scheduled",
+      "awayTeam": "MIN",
+      "homeTeam": "TB",
+      "stadium": "TB",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-045",
+      "week": 3,
+      "dateET": "2026-09-27",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-09-27T20:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "LV",
+      "homeTeam": "NO",
+      "stadium": "NO",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-046",
+      "week": 3,
+      "dateET": "2026-09-27",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-09-27T20:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "BAL",
+      "homeTeam": "DAL",
+      "stadium": "INT_RIO",
+      "network": "CBS",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "event": "International - Rio de Janeiro",
+      "flexible": false
+    },
+    {
+      "gameId": "2026-047",
+      "week": 3,
+      "dateET": "2026-09-27",
+      "day": "Sunday",
+      "kickoffET": "8:20 PM",
+      "kickoffUTC": "2026-09-28T00:20:00Z",
+      "status": "scheduled",
+      "awayTeam": "LAR",
+      "homeTeam": "DEN",
+      "stadium": "DEN",
+      "network": "NBC",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-048",
+      "week": 3,
+      "dateET": "2026-09-28",
+      "day": "Monday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-09-29T00:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "PHI",
+      "homeTeam": "CHI",
+      "stadium": "CHI",
+      "network": "ESPN",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-049",
+      "week": 4,
+      "dateET": "2026-10-01",
+      "day": "Thursday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-10-02T00:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "PIT",
+      "homeTeam": "CLE",
+      "stadium": "CLE",
+      "network": "Amazon",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-050",
+      "week": 4,
+      "dateET": "2026-10-04",
+      "day": "Sunday",
+      "kickoffET": "9:30 AM",
+      "kickoffUTC": "2026-10-04T13:30:00Z",
+      "status": "scheduled",
+      "awayTeam": "IND",
+      "homeTeam": "WAS",
+      "stadium": "INT_LON1",
+      "network": "NFL Network",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "event": "International - London",
+      "flexible": false
+    },
+    {
+      "gameId": "2026-051",
+      "week": 4,
+      "dateET": "2026-10-04",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-04T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "TEN",
+      "homeTeam": "BAL",
+      "stadium": "BAL",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-052",
+      "week": 4,
+      "dateET": "2026-10-04",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-04T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "NE",
+      "homeTeam": "BUF",
+      "stadium": "BUF",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-053",
+      "week": 4,
+      "dateET": "2026-10-04",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-04T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "NYJ",
+      "homeTeam": "CHI",
+      "stadium": "CHI",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-054",
+      "week": 4,
+      "dateET": "2026-10-04",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-04T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "JAX",
+      "homeTeam": "CIN",
+      "stadium": "CIN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-055",
+      "week": 4,
+      "dateET": "2026-10-04",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-04T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "DAL",
+      "homeTeam": "HOU",
+      "stadium": "HOU",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-056",
+      "week": 4,
+      "dateET": "2026-10-04",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-04T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "ARI",
+      "homeTeam": "NYG",
+      "stadium": "NYG",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-057",
+      "week": 4,
+      "dateET": "2026-10-04",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-04T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "LAR",
+      "homeTeam": "PHI",
+      "stadium": "PHI",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-058",
+      "week": 4,
+      "dateET": "2026-10-04",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-04T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "GB",
+      "homeTeam": "TB",
+      "stadium": "TB",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-059",
+      "week": 4,
+      "dateET": "2026-10-04",
+      "day": "Sunday",
+      "kickoffET": "4:05 PM",
+      "kickoffUTC": "2026-10-04T20:05:00Z",
+      "status": "scheduled",
+      "awayTeam": "MIA",
+      "homeTeam": "MIN",
+      "stadium": "MIN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-060",
+      "week": 4,
+      "dateET": "2026-10-04",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-10-04T20:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "KC",
+      "homeTeam": "LV",
+      "stadium": "LV",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-061",
+      "week": 4,
+      "dateET": "2026-10-04",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-10-04T20:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "LAC",
+      "homeTeam": "SEA",
+      "stadium": "SEA",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-062",
+      "week": 4,
+      "dateET": "2026-10-04",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-10-04T20:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "DEN",
+      "homeTeam": "SF",
+      "stadium": "SF",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-063",
+      "week": 4,
+      "dateET": "2026-10-04",
+      "day": "Sunday",
+      "kickoffET": "8:20 PM",
+      "kickoffUTC": "2026-10-05T00:20:00Z",
+      "status": "scheduled",
+      "awayTeam": "DET",
+      "homeTeam": "CAR",
+      "stadium": "CAR",
+      "network": "NBC",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-064",
+      "week": 4,
+      "dateET": "2026-10-05",
+      "day": "Monday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-10-06T00:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "ATL",
+      "homeTeam": "NO",
+      "stadium": "NO",
+      "network": "ESPN",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-065",
+      "week": 5,
+      "dateET": "2026-10-08",
+      "day": "Thursday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-10-09T00:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "TB",
+      "homeTeam": "DAL",
+      "stadium": "DAL",
+      "network": "Amazon",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-066",
+      "week": 5,
+      "dateET": "2026-10-11",
+      "day": "Sunday",
+      "kickoffET": "9:30 AM",
+      "kickoffUTC": "2026-10-11T13:30:00Z",
+      "status": "scheduled",
+      "awayTeam": "PHI",
+      "homeTeam": "JAX",
+      "stadium": "INT_LON1",
+      "network": "NFL Network",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-067",
+      "week": 5,
+      "dateET": "2026-10-11",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-11T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "CIN",
+      "homeTeam": "MIA",
+      "stadium": "MIA",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-068",
+      "week": 5,
+      "dateET": "2026-10-11",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-11T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "LV",
+      "homeTeam": "NE",
+      "stadium": "NE",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-069",
+      "week": 5,
+      "dateET": "2026-10-11",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-11T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "MIN",
+      "homeTeam": "NO",
+      "stadium": "NO",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-070",
+      "week": 5,
+      "dateET": "2026-10-11",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-11T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "CLE",
+      "homeTeam": "NYJ",
+      "stadium": "NYJ",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-071",
+      "week": 5,
+      "dateET": "2026-10-11",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-11T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "IND",
+      "homeTeam": "PIT",
+      "stadium": "PIT",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-072",
+      "week": 5,
+      "dateET": "2026-10-11",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-11T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "HOU",
+      "homeTeam": "TEN",
+      "stadium": "TEN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-073",
+      "week": 5,
+      "dateET": "2026-10-11",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-11T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "NYG",
+      "homeTeam": "WAS",
+      "stadium": "WAS",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-074",
+      "week": 5,
+      "dateET": "2026-10-11",
+      "day": "Sunday",
+      "kickoffET": "4:05 PM",
+      "kickoffUTC": "2026-10-11T20:05:00Z",
+      "status": "scheduled",
+      "awayTeam": "DEN",
+      "homeTeam": "LAC",
+      "stadium": "LAC",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-075",
+      "week": 5,
+      "dateET": "2026-10-11",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-10-11T20:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "DET",
+      "homeTeam": "ARI",
+      "stadium": "ARI",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-076",
+      "week": 5,
+      "dateET": "2026-10-11",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-10-11T20:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "CHI",
+      "homeTeam": "GB",
+      "stadium": "GB",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-077",
+      "week": 5,
+      "dateET": "2026-10-11",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-10-11T20:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "SF",
+      "homeTeam": "SEA",
+      "stadium": "SEA",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-078",
+      "week": 5,
+      "dateET": "2026-10-11",
+      "day": "Sunday",
+      "kickoffET": "8:20 PM",
+      "kickoffUTC": "2026-10-12T00:20:00Z",
+      "status": "scheduled",
+      "awayTeam": "BAL",
+      "homeTeam": "ATL",
+      "stadium": "ATL",
+      "network": "NBC",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-079",
+      "week": 5,
+      "dateET": "2026-10-12",
+      "day": "Monday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-10-13T00:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "BUF",
+      "homeTeam": "LAR",
+      "stadium": "LAR",
+      "network": "ESPN",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-080",
+      "week": 6,
+      "dateET": "2026-10-15",
+      "day": "Thursday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-10-16T00:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "SEA",
+      "homeTeam": "DEN",
+      "stadium": "DEN",
+      "network": "Amazon",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-081",
+      "week": 6,
+      "dateET": "2026-10-18",
+      "day": "Sunday",
+      "kickoffET": "9:30 AM",
+      "kickoffUTC": "2026-10-18T13:30:00Z",
+      "status": "scheduled",
+      "awayTeam": "HOU",
+      "homeTeam": "JAX",
+      "stadium": "INT_LON2",
+      "network": "NFL Network",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "event": "International - London",
+      "flexible": false
+    },
+    {
+      "gameId": "2026-082",
+      "week": 6,
+      "dateET": "2026-10-18",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-18T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "CHI",
+      "homeTeam": "ATL",
+      "stadium": "ATL",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-083",
+      "week": 6,
+      "dateET": "2026-10-18",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-18T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "BAL",
+      "homeTeam": "CLE",
+      "stadium": "CLE",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-084",
+      "week": 6,
+      "dateET": "2026-10-18",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-18T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "TEN",
+      "homeTeam": "IND",
+      "stadium": "IND",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-085",
+      "week": 6,
+      "dateET": "2026-10-18",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-18T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "NYJ",
+      "homeTeam": "NE",
+      "stadium": "NE",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-086",
+      "week": 6,
+      "dateET": "2026-10-18",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-18T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "NO",
+      "homeTeam": "NYG",
+      "stadium": "NYG",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-087",
+      "week": 6,
+      "dateET": "2026-10-18",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-18T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "CAR",
+      "homeTeam": "PHI",
+      "stadium": "PHI",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-088",
+      "week": 6,
+      "dateET": "2026-10-18",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-18T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "PIT",
+      "homeTeam": "TB",
+      "stadium": "TB",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-089",
+      "week": 6,
+      "dateET": "2026-10-18",
+      "day": "Sunday",
+      "kickoffET": "4:05 PM",
+      "kickoffUTC": "2026-10-18T20:05:00Z",
+      "status": "scheduled",
+      "awayTeam": "ARI",
+      "homeTeam": "LAR",
+      "stadium": "LAR",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-090",
+      "week": 6,
+      "dateET": "2026-10-18",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-10-18T20:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "LAC",
+      "homeTeam": "KC",
+      "stadium": "KC",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-091",
+      "week": 6,
+      "dateET": "2026-10-18",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-10-18T20:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "BUF",
+      "homeTeam": "LV",
+      "stadium": "LV",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-092",
+      "week": 6,
+      "dateET": "2026-10-18",
+      "day": "Sunday",
+      "kickoffET": "8:20 PM",
+      "kickoffUTC": "2026-10-19T00:20:00Z",
+      "status": "scheduled",
+      "awayTeam": "DAL",
+      "homeTeam": "GB",
+      "stadium": "GB",
+      "network": "NBC",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-093",
+      "week": 6,
+      "dateET": "2026-10-19",
+      "day": "Monday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-10-20T00:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "WAS",
+      "homeTeam": "SF",
+      "stadium": "SF",
+      "network": "ESPN",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-094",
+      "week": 7,
+      "dateET": "2026-10-22",
+      "day": "Thursday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-10-23T00:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "NE",
+      "homeTeam": "CHI",
+      "stadium": "CHI",
+      "network": "Amazon",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-095",
+      "week": 7,
+      "dateET": "2026-10-25",
+      "day": "Sunday",
+      "kickoffET": "9:30 AM",
+      "kickoffUTC": "2026-10-25T13:30:00Z",
+      "status": "scheduled",
+      "awayTeam": "PIT",
+      "homeTeam": "NO",
+      "stadium": "INT_PAR",
+      "network": "NFL Network",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "event": "International - Paris",
+      "flexible": false
+    },
+    {
+      "gameId": "2026-096",
+      "week": 7,
+      "dateET": "2026-10-25",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-25T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "SF",
+      "homeTeam": "ATL",
+      "stadium": "ATL",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-097",
+      "week": 7,
+      "dateET": "2026-10-25",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-25T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "CIN",
+      "homeTeam": "BAL",
+      "stadium": "BAL",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-098",
+      "week": 7,
+      "dateET": "2026-10-25",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-25T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "TB",
+      "homeTeam": "CAR",
+      "stadium": "CAR",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-099",
+      "week": 7,
+      "dateET": "2026-10-25",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-25T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "NYG",
+      "homeTeam": "HOU",
+      "stadium": "HOU",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-100",
+      "week": 7,
+      "dateET": "2026-10-25",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-25T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "IND",
+      "homeTeam": "MIN",
+      "stadium": "MIN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-101",
+      "week": 7,
+      "dateET": "2026-10-25",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-25T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "MIA",
+      "homeTeam": "NYJ",
+      "stadium": "NYJ",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-102",
+      "week": 7,
+      "dateET": "2026-10-25",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-10-25T17:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "CLE",
+      "homeTeam": "TEN",
+      "stadium": "TEN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-103",
+      "week": 7,
+      "dateET": "2026-10-25",
+      "day": "Sunday",
+      "kickoffET": "4:05 PM",
+      "kickoffUTC": "2026-10-25T20:05:00Z",
+      "status": "scheduled",
+      "awayTeam": "DEN",
+      "homeTeam": "ARI",
+      "stadium": "ARI",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-104",
+      "week": 7,
+      "dateET": "2026-10-25",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-10-25T20:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "GB",
+      "homeTeam": "DET",
+      "stadium": "DET",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-105",
+      "week": 7,
+      "dateET": "2026-10-25",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-10-25T20:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "LAR",
+      "homeTeam": "LV",
+      "stadium": "LV",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-106",
+      "week": 7,
+      "dateET": "2026-10-25",
+      "day": "Sunday",
+      "kickoffET": "8:20 PM",
+      "kickoffUTC": "2026-10-26T00:20:00Z",
+      "status": "scheduled",
+      "awayTeam": "KC",
+      "homeTeam": "SEA",
+      "stadium": "SEA",
+      "network": "NBC",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-107",
+      "week": 7,
+      "dateET": "2026-10-26",
+      "day": "Monday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-10-27T00:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "DAL",
+      "homeTeam": "PHI",
+      "stadium": "PHI",
+      "network": "ESPN",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-108",
+      "week": 8,
+      "dateET": "2026-10-29",
+      "day": "Thursday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-10-30T00:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "CAR",
+      "homeTeam": "GB",
+      "stadium": "GB",
+      "network": "Amazon",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-109",
+      "week": 8,
+      "dateET": "2026-11-01",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-01T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "BAL",
+      "homeTeam": "BUF",
+      "stadium": "BUF",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-110",
+      "week": 8,
+      "dateET": "2026-11-01",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-01T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "TEN",
+      "homeTeam": "CIN",
+      "stadium": "CIN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-111",
+      "week": 8,
+      "dateET": "2026-11-01",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-01T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "ARI",
+      "homeTeam": "DAL",
+      "stadium": "DAL",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-112",
+      "week": 8,
+      "dateET": "2026-11-01",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-01T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "MIN",
+      "homeTeam": "DET",
+      "stadium": "DET",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-113",
+      "week": 8,
+      "dateET": "2026-11-01",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-01T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "IND",
+      "homeTeam": "JAX",
+      "stadium": "JAX",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-114",
+      "week": 8,
+      "dateET": "2026-11-01",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-01T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "LV",
+      "homeTeam": "NYJ",
+      "stadium": "NYJ",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-115",
+      "week": 8,
+      "dateET": "2026-11-01",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-01T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "CLE",
+      "homeTeam": "PIT",
+      "stadium": "PIT",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-116",
+      "week": 8,
+      "dateET": "2026-11-01",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-01T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "ATL",
+      "homeTeam": "TB",
+      "stadium": "TB",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-117",
+      "week": 8,
+      "dateET": "2026-11-01",
+      "day": "Sunday",
+      "kickoffET": "4:05 PM",
+      "kickoffUTC": "2026-11-01T21:05:00Z",
+      "status": "scheduled",
+      "awayTeam": "LAC",
+      "homeTeam": "LAR",
+      "stadium": "LAR",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-118",
+      "week": 8,
+      "dateET": "2026-11-01",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-11-01T21:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "KC",
+      "homeTeam": "DEN",
+      "stadium": "DEN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-119",
+      "week": 8,
+      "dateET": "2026-11-01",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-11-01T21:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "NE",
+      "homeTeam": "MIA",
+      "stadium": "MIA",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-120",
+      "week": 8,
+      "dateET": "2026-11-01",
+      "day": "Sunday",
+      "kickoffET": "8:20 PM",
+      "kickoffUTC": "2026-11-02T01:20:00Z",
+      "status": "scheduled",
+      "awayTeam": "PHI",
+      "homeTeam": "WAS",
+      "stadium": "WAS",
+      "network": "NBC",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-121",
+      "week": 8,
+      "dateET": "2026-11-02",
+      "day": "Monday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-11-03T01:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "CHI",
+      "homeTeam": "SEA",
+      "stadium": "SEA",
+      "network": "ESPN",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-122",
+      "week": 9,
+      "dateET": "2026-11-05",
+      "day": "Thursday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-11-06T01:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "JAX",
+      "homeTeam": "BAL",
+      "stadium": "BAL",
+      "network": "Amazon",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-123",
+      "week": 9,
+      "dateET": "2026-11-08",
+      "day": "Sunday",
+      "kickoffET": "9:30 AM",
+      "kickoffUTC": "2026-11-08T14:30:00Z",
+      "status": "scheduled",
+      "awayTeam": "CIN",
+      "homeTeam": "ATL",
+      "stadium": "INT_MAD",
+      "network": "NFL Network",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "event": "International - Madrid",
+      "flexible": false
+    },
+    {
+      "gameId": "2026-124",
+      "week": 9,
+      "dateET": "2026-11-08",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-08T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "DEN",
+      "homeTeam": "CAR",
+      "stadium": "CAR",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-125",
+      "week": 9,
+      "dateET": "2026-11-08",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-08T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "DAL",
+      "homeTeam": "IND",
+      "stadium": "IND",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-126",
+      "week": 9,
+      "dateET": "2026-11-08",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-08T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "NYJ",
+      "homeTeam": "KC",
+      "stadium": "KC",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-127",
+      "week": 9,
+      "dateET": "2026-11-08",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-08T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "DET",
+      "homeTeam": "MIA",
+      "stadium": "MIA",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-128",
+      "week": 9,
+      "dateET": "2026-11-08",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-08T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "CLE",
+      "homeTeam": "NO",
+      "stadium": "NO",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-129",
+      "week": 9,
+      "dateET": "2026-11-08",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-08T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "NYG",
+      "homeTeam": "PHI",
+      "stadium": "PHI",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-130",
+      "week": 9,
+      "dateET": "2026-11-08",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-08T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "LAR",
+      "homeTeam": "WAS",
+      "stadium": "WAS",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-131",
+      "week": 9,
+      "dateET": "2026-11-08",
+      "day": "Sunday",
+      "kickoffET": "4:05 PM",
+      "kickoffUTC": "2026-11-08T21:05:00Z",
+      "status": "scheduled",
+      "awayTeam": "HOU",
+      "homeTeam": "LAC",
+      "stadium": "LAC",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-132",
+      "week": 9,
+      "dateET": "2026-11-08",
+      "day": "Sunday",
+      "kickoffET": "4:05 PM",
+      "kickoffUTC": "2026-11-08T21:05:00Z",
+      "status": "scheduled",
+      "awayTeam": "LV",
+      "homeTeam": "SF",
+      "stadium": "SF",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-133",
+      "week": 9,
+      "dateET": "2026-11-08",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-11-08T21:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "GB",
+      "homeTeam": "NE",
+      "stadium": "NE",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-134",
+      "week": 9,
+      "dateET": "2026-11-08",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-11-08T21:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "ARI",
+      "homeTeam": "SEA",
+      "stadium": "SEA",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-135",
+      "week": 9,
+      "dateET": "2026-11-08",
+      "day": "Sunday",
+      "kickoffET": "8:20 PM",
+      "kickoffUTC": "2026-11-09T01:20:00Z",
+      "status": "scheduled",
+      "awayTeam": "TB",
+      "homeTeam": "CHI",
+      "stadium": "CHI",
+      "network": "NBC",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-136",
+      "week": 9,
+      "dateET": "2026-11-09",
+      "day": "Monday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-11-10T01:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "BUF",
+      "homeTeam": "MIN",
+      "stadium": "MIN",
+      "network": "ESPN",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-137",
+      "week": 10,
+      "dateET": "2026-11-12",
+      "day": "Thursday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-11-13T01:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "WAS",
+      "homeTeam": "NYG",
+      "stadium": "NYG",
+      "network": "Amazon",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-138",
+      "week": 10,
+      "dateET": "2026-11-15",
+      "day": "Sunday",
+      "kickoffET": "9:30 AM",
+      "kickoffUTC": "2026-11-15T14:30:00Z",
+      "status": "scheduled",
+      "awayTeam": "NE",
+      "homeTeam": "DET",
+      "stadium": "INT_MUC",
+      "network": "Fox",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "event": "International - Munich",
+      "flexible": false
+    },
+    {
+      "gameId": "2026-139",
+      "week": 10,
+      "dateET": "2026-11-15",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-15T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "KC",
+      "homeTeam": "ATL",
+      "stadium": "ATL",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-140",
+      "week": 10,
+      "dateET": "2026-11-15",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-15T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "HOU",
+      "homeTeam": "CLE",
+      "stadium": "CLE",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-141",
+      "week": 10,
+      "dateET": "2026-11-15",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-15T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "MIN",
+      "homeTeam": "GB",
+      "stadium": "GB",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-142",
+      "week": 10,
+      "dateET": "2026-11-15",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-15T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "MIA",
+      "homeTeam": "IND",
+      "stadium": "IND",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-143",
+      "week": 10,
+      "dateET": "2026-11-15",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-15T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "CAR",
+      "homeTeam": "NO",
+      "stadium": "NO",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-144",
+      "week": 10,
+      "dateET": "2026-11-15",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-15T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "BUF",
+      "homeTeam": "NYJ",
+      "stadium": "NYJ",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-145",
+      "week": 10,
+      "dateET": "2026-11-15",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-15T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "JAX",
+      "homeTeam": "TEN",
+      "stadium": "TEN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-146",
+      "week": 10,
+      "dateET": "2026-11-15",
+      "day": "Sunday",
+      "kickoffET": "4:05 PM",
+      "kickoffUTC": "2026-11-15T21:05:00Z",
+      "status": "scheduled",
+      "awayTeam": "LAR",
+      "homeTeam": "ARI",
+      "stadium": "ARI",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-147",
+      "week": 10,
+      "dateET": "2026-11-15",
+      "day": "Sunday",
+      "kickoffET": "4:05 PM",
+      "kickoffUTC": "2026-11-15T21:05:00Z",
+      "status": "scheduled",
+      "awayTeam": "SEA",
+      "homeTeam": "LV",
+      "stadium": "LV",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-148",
+      "week": 10,
+      "dateET": "2026-11-15",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-11-15T21:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "SF",
+      "homeTeam": "DAL",
+      "stadium": "DAL",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-149",
+      "week": 10,
+      "dateET": "2026-11-15",
+      "day": "Sunday",
+      "kickoffET": "8:20 PM",
+      "kickoffUTC": "2026-11-16T01:20:00Z",
+      "status": "scheduled",
+      "awayTeam": "PIT",
+      "homeTeam": "CIN",
+      "stadium": "CIN",
+      "network": "NBC",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-150",
+      "week": 10,
+      "dateET": "2026-11-16",
+      "day": "Monday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-11-17T01:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "LAC",
+      "homeTeam": "BAL",
+      "stadium": "BAL",
+      "network": "ESPN",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-151",
+      "week": 11,
+      "dateET": "2026-11-19",
+      "day": "Thursday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-11-20T01:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "IND",
+      "homeTeam": "HOU",
+      "stadium": "HOU",
+      "network": "Amazon",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-152",
+      "week": 11,
+      "dateET": "2026-11-22",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-22T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "MIA",
+      "homeTeam": "BUF",
+      "stadium": "BUF",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-153",
+      "week": 11,
+      "dateET": "2026-11-22",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-22T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "BAL",
+      "homeTeam": "CAR",
+      "stadium": "CAR",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-154",
+      "week": 11,
+      "dateET": "2026-11-22",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-22T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "NO",
+      "homeTeam": "CHI",
+      "stadium": "CHI",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-155",
+      "week": 11,
+      "dateET": "2026-11-22",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-22T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "TEN",
+      "homeTeam": "DAL",
+      "stadium": "DAL",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-156",
+      "week": 11,
+      "dateET": "2026-11-22",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-22T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "TB",
+      "homeTeam": "DET",
+      "stadium": "DET",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-157",
+      "week": 11,
+      "dateET": "2026-11-22",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-22T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "ARI",
+      "homeTeam": "KC",
+      "stadium": "KC",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-158",
+      "week": 11,
+      "dateET": "2026-11-22",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-22T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "JAX",
+      "homeTeam": "NYG",
+      "stadium": "NYG",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-159",
+      "week": 11,
+      "dateET": "2026-11-22",
+      "day": "Sunday",
+      "kickoffET": "4:05 PM",
+      "kickoffUTC": "2026-11-22T21:05:00Z",
+      "status": "scheduled",
+      "awayTeam": "NYJ",
+      "homeTeam": "LAC",
+      "stadium": "LAC",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-160",
+      "week": 11,
+      "dateET": "2026-11-22",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-11-22T21:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "LV",
+      "homeTeam": "DEN",
+      "stadium": "DEN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-161",
+      "week": 11,
+      "dateET": "2026-11-22",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-11-22T21:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "PIT",
+      "homeTeam": "PHI",
+      "stadium": "PHI",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-162",
+      "week": 11,
+      "dateET": "2026-11-22",
+      "day": "Sunday",
+      "kickoffET": "8:20 PM",
+      "kickoffUTC": "2026-11-23T01:20:00Z",
+      "status": "scheduled",
+      "awayTeam": "MIN",
+      "homeTeam": "SF",
+      "stadium": "INT_MEX",
+      "network": "NBC/Peacock",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "event": "International - Mexico City",
+      "flexible": false
+    },
+    {
+      "gameId": "2026-163",
+      "week": 11,
+      "dateET": "2026-11-23",
+      "day": "Monday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-11-24T01:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "CIN",
+      "homeTeam": "WAS",
+      "stadium": "WAS",
+      "network": "ESPN",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-164",
+      "week": 12,
+      "dateET": "2026-11-25",
+      "day": "Wednesday",
+      "kickoffET": "8:00 PM",
+      "kickoffUTC": "2026-11-26T01:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "GB",
+      "homeTeam": "LAR",
+      "stadium": "LAR",
+      "network": "Netflix",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-165",
+      "week": 12,
+      "dateET": "2026-11-26",
+      "day": "Thursday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-26T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "CHI",
+      "homeTeam": "DET",
+      "stadium": "DET",
+      "network": "CBS",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-166",
+      "week": 12,
+      "dateET": "2026-11-26",
+      "day": "Thursday",
+      "kickoffET": "4:30 PM",
+      "kickoffUTC": "2026-11-26T21:30:00Z",
+      "status": "scheduled",
+      "awayTeam": "PHI",
+      "homeTeam": "DAL",
+      "stadium": "DAL",
+      "network": "Fox",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-167",
+      "week": 12,
+      "dateET": "2026-11-26",
+      "day": "Thursday",
+      "kickoffET": "8:20 PM",
+      "kickoffUTC": "2026-11-27T01:20:00Z",
+      "status": "scheduled",
+      "awayTeam": "KC",
+      "homeTeam": "BUF",
+      "stadium": "BUF",
+      "network": "NBC",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-168",
+      "week": 12,
+      "dateET": "2026-11-27",
+      "day": "Friday",
+      "kickoffET": "3:00 PM",
+      "kickoffUTC": "2026-11-27T20:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "DEN",
+      "homeTeam": "PIT",
+      "stadium": "PIT",
+      "network": "Amazon",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-169",
+      "week": 12,
+      "dateET": "2026-11-29",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-29T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "NO",
+      "homeTeam": "CIN",
+      "stadium": "CIN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-170",
+      "week": 12,
+      "dateET": "2026-11-29",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-29T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "LV",
+      "homeTeam": "CLE",
+      "stadium": "CLE",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-171",
+      "week": 12,
+      "dateET": "2026-11-29",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-29T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "BAL",
+      "homeTeam": "HOU",
+      "stadium": "HOU",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-172",
+      "week": 12,
+      "dateET": "2026-11-29",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-29T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "NYG",
+      "homeTeam": "IND",
+      "stadium": "IND",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-173",
+      "week": 12,
+      "dateET": "2026-11-29",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-29T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "NYJ",
+      "homeTeam": "MIA",
+      "stadium": "MIA",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-174",
+      "week": 12,
+      "dateET": "2026-11-29",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-11-29T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "ATL",
+      "homeTeam": "MIN",
+      "stadium": "MIN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-175",
+      "week": 12,
+      "dateET": "2026-11-29",
+      "day": "Sunday",
+      "kickoffET": "4:05 PM",
+      "kickoffUTC": "2026-11-29T21:05:00Z",
+      "status": "scheduled",
+      "awayTeam": "TEN",
+      "homeTeam": "JAX",
+      "stadium": "JAX",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-176",
+      "week": 12,
+      "dateET": "2026-11-29",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-11-29T21:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "WAS",
+      "homeTeam": "ARI",
+      "stadium": "ARI",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-177",
+      "week": 12,
+      "dateET": "2026-11-29",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-11-29T21:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "SEA",
+      "homeTeam": "SF",
+      "stadium": "SF",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-178",
+      "week": 12,
+      "dateET": "2026-11-29",
+      "day": "Sunday",
+      "kickoffET": "8:20 PM",
+      "kickoffUTC": "2026-11-30T01:20:00Z",
+      "status": "scheduled",
+      "awayTeam": "NE",
+      "homeTeam": "LAC",
+      "stadium": "LAC",
+      "network": "NBC",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-179",
+      "week": 12,
+      "dateET": "2026-11-30",
+      "day": "Monday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-12-01T01:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "CAR",
+      "homeTeam": "TB",
+      "stadium": "TB",
+      "network": "ESPN",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-180",
+      "week": 13,
+      "dateET": "2026-12-03",
+      "day": "Thursday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-12-04T01:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "KC",
+      "homeTeam": "LAR",
+      "stadium": "LAR",
+      "network": "Amazon",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-181",
+      "week": 13,
+      "dateET": "2026-12-06",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-06T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "DET",
+      "homeTeam": "ATL",
+      "stadium": "ATL",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-182",
+      "week": 13,
+      "dateET": "2026-12-06",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-06T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "JAX",
+      "homeTeam": "CHI",
+      "stadium": "CHI",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-183",
+      "week": 13,
+      "dateET": "2026-12-06",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-06T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "CIN",
+      "homeTeam": "CLE",
+      "stadium": "CLE",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-184",
+      "week": 13,
+      "dateET": "2026-12-06",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-06T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "GB",
+      "homeTeam": "NO",
+      "stadium": "NO",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-185",
+      "week": 13,
+      "dateET": "2026-12-06",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-06T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "SF",
+      "homeTeam": "NYG",
+      "stadium": "NYG",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-186",
+      "week": 13,
+      "dateET": "2026-12-06",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-06T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "LAC",
+      "homeTeam": "TB",
+      "stadium": "TB",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-187",
+      "week": 13,
+      "dateET": "2026-12-06",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-06T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "WAS",
+      "homeTeam": "TEN",
+      "stadium": "TEN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-188",
+      "week": 13,
+      "dateET": "2026-12-06",
+      "day": "Sunday",
+      "kickoffET": "4:05 PM",
+      "kickoffUTC": "2026-12-06T21:05:00Z",
+      "status": "scheduled",
+      "awayTeam": "PHI",
+      "homeTeam": "ARI",
+      "stadium": "ARI",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-189",
+      "week": 13,
+      "dateET": "2026-12-06",
+      "day": "Sunday",
+      "kickoffET": "4:05 PM",
+      "kickoffUTC": "2026-12-06T21:05:00Z",
+      "status": "scheduled",
+      "awayTeam": "MIA",
+      "homeTeam": "DEN",
+      "stadium": "DEN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-190",
+      "week": 13,
+      "dateET": "2026-12-06",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-12-06T21:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "CAR",
+      "homeTeam": "MIN",
+      "stadium": "MIN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-191",
+      "week": 13,
+      "dateET": "2026-12-06",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-12-06T21:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "BUF",
+      "homeTeam": "NE",
+      "stadium": "NE",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-192",
+      "week": 13,
+      "dateET": "2026-12-06",
+      "day": "Sunday",
+      "kickoffET": "8:20 PM",
+      "kickoffUTC": "2026-12-07T01:20:00Z",
+      "status": "scheduled",
+      "awayTeam": "HOU",
+      "homeTeam": "PIT",
+      "stadium": "PIT",
+      "network": "NBC",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-193",
+      "week": 13,
+      "dateET": "2026-12-07",
+      "day": "Monday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-12-08T01:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "DAL",
+      "homeTeam": "SEA",
+      "stadium": "SEA",
+      "network": "ESPN",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-194",
+      "week": 14,
+      "dateET": "2026-12-10",
+      "day": "Thursday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-12-11T01:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "MIN",
+      "homeTeam": "NE",
+      "stadium": "NE",
+      "network": "Amazon",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-195",
+      "week": 14,
+      "dateET": "2026-12-13",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-13T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "TB",
+      "homeTeam": "BAL",
+      "stadium": "BAL",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-196",
+      "week": 14,
+      "dateET": "2026-12-13",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-13T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "NO",
+      "homeTeam": "CAR",
+      "stadium": "CAR",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-197",
+      "week": 14,
+      "dateET": "2026-12-13",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-13T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "ATL",
+      "homeTeam": "CLE",
+      "stadium": "CLE",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-198",
+      "week": 14,
+      "dateET": "2026-12-13",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-13T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "TEN",
+      "homeTeam": "DET",
+      "stadium": "DET",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-199",
+      "week": 14,
+      "dateET": "2026-12-13",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-13T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "CHI",
+      "homeTeam": "MIA",
+      "stadium": "MIA",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-200",
+      "week": 14,
+      "dateET": "2026-12-13",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-13T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "DEN",
+      "homeTeam": "NYJ",
+      "stadium": "NYJ",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-201",
+      "week": 14,
+      "dateET": "2026-12-13",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-13T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "IND",
+      "homeTeam": "PHI",
+      "stadium": "PHI",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-202",
+      "week": 14,
+      "dateET": "2026-12-13",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-13T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "HOU",
+      "homeTeam": "WAS",
+      "stadium": "WAS",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-203",
+      "week": 14,
+      "dateET": "2026-12-13",
+      "day": "Sunday",
+      "kickoffET": "4:05 PM",
+      "kickoffUTC": "2026-12-13T21:05:00Z",
+      "status": "scheduled",
+      "awayTeam": "LAC",
+      "homeTeam": "LV",
+      "stadium": "LV",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-204",
+      "week": 14,
+      "dateET": "2026-12-13",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-12-13T21:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "KC",
+      "homeTeam": "CIN",
+      "stadium": "CIN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-205",
+      "week": 14,
+      "dateET": "2026-12-13",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-12-13T21:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "NYG",
+      "homeTeam": "SEA",
+      "stadium": "SEA",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-206",
+      "week": 14,
+      "dateET": "2026-12-13",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-12-13T21:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "LAR",
+      "homeTeam": "SF",
+      "stadium": "SF",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-207",
+      "week": 14,
+      "dateET": "2026-12-13",
+      "day": "Sunday",
+      "kickoffET": "8:20 PM",
+      "kickoffUTC": "2026-12-14T01:20:00Z",
+      "status": "scheduled",
+      "awayTeam": "BUF",
+      "homeTeam": "GB",
+      "stadium": "GB",
+      "network": "NBC",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-208",
+      "week": 14,
+      "dateET": "2026-12-14",
+      "day": "Monday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-12-15T01:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "PIT",
+      "homeTeam": "JAX",
+      "stadium": "JAX",
+      "network": "ESPN",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-209",
+      "week": 15,
+      "dateET": "2026-12-17",
+      "day": "Thursday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-12-18T01:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "SF",
+      "homeTeam": "LAC",
+      "stadium": "LAC",
+      "network": "Amazon",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-210",
+      "week": 15,
+      "dateET": "2026-12-19",
+      "day": "Saturday",
+      "kickoffET": "5:00 PM",
+      "kickoffUTC": "2026-12-19T22:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "SEA",
+      "homeTeam": "PHI",
+      "stadium": "PHI",
+      "network": "Fox",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-211",
+      "week": 15,
+      "dateET": "2026-12-19",
+      "day": "Saturday",
+      "kickoffET": "8:20 PM",
+      "kickoffUTC": "2026-12-20T01:20:00Z",
+      "status": "scheduled",
+      "awayTeam": "CHI",
+      "homeTeam": "BUF",
+      "stadium": "BUF",
+      "network": "CBS",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-212",
+      "week": 15,
+      "dateET": "2026-12-20",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-20T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "CIN",
+      "homeTeam": "CAR",
+      "stadium": "CAR",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-213",
+      "week": 15,
+      "dateET": "2026-12-20",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-20T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "MIA",
+      "homeTeam": "GB",
+      "stadium": "GB",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-214",
+      "week": 15,
+      "dateET": "2026-12-20",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-20T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "JAX",
+      "homeTeam": "HOU",
+      "stadium": "HOU",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-215",
+      "week": 15,
+      "dateET": "2026-12-20",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-20T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "CLE",
+      "homeTeam": "NYG",
+      "stadium": "NYG",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-216",
+      "week": 15,
+      "dateET": "2026-12-20",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-20T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "BAL",
+      "homeTeam": "PIT",
+      "stadium": "PIT",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-217",
+      "week": 15,
+      "dateET": "2026-12-20",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-20T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "NO",
+      "homeTeam": "TB",
+      "stadium": "TB",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-218",
+      "week": 15,
+      "dateET": "2026-12-20",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-20T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "IND",
+      "homeTeam": "TEN",
+      "stadium": "TEN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-219",
+      "week": 15,
+      "dateET": "2026-12-20",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-20T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "ATL",
+      "homeTeam": "WAS",
+      "stadium": "WAS",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-220",
+      "week": 15,
+      "dateET": "2026-12-20",
+      "day": "Sunday",
+      "kickoffET": "4:05 PM",
+      "kickoffUTC": "2026-12-20T21:05:00Z",
+      "status": "scheduled",
+      "awayTeam": "NYJ",
+      "homeTeam": "ARI",
+      "stadium": "ARI",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-221",
+      "week": 15,
+      "dateET": "2026-12-20",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-12-20T21:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "DAL",
+      "homeTeam": "LAR",
+      "stadium": "LAR",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-222",
+      "week": 15,
+      "dateET": "2026-12-20",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-12-20T21:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "DEN",
+      "homeTeam": "LV",
+      "stadium": "LV",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-223",
+      "week": 15,
+      "dateET": "2026-12-20",
+      "day": "Sunday",
+      "kickoffET": "8:20 PM",
+      "kickoffUTC": "2026-12-21T01:20:00Z",
+      "status": "scheduled",
+      "awayTeam": "DET",
+      "homeTeam": "MIN",
+      "stadium": "MIN",
+      "network": "NBC",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-224",
+      "week": 15,
+      "dateET": "2026-12-21",
+      "day": "Monday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-12-22T01:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "NE",
+      "homeTeam": "KC",
+      "stadium": "KC",
+      "network": "ESPN",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-225",
+      "week": 16,
+      "dateET": "2026-12-24",
+      "day": "Thursday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-12-25T01:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "HOU",
+      "homeTeam": "PHI",
+      "stadium": "PHI",
+      "network": "Amazon",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-226",
+      "week": 16,
+      "dateET": "2026-12-25",
+      "day": "Friday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-25T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "GB",
+      "homeTeam": "CHI",
+      "stadium": "CHI",
+      "network": "Netflix",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-227",
+      "week": 16,
+      "dateET": "2026-12-25",
+      "day": "Friday",
+      "kickoffET": "4:30 PM",
+      "kickoffUTC": "2026-12-25T21:30:00Z",
+      "status": "scheduled",
+      "awayTeam": "BUF",
+      "homeTeam": "DEN",
+      "stadium": "DEN",
+      "network": "Netflix",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-228",
+      "week": 16,
+      "dateET": "2026-12-25",
+      "day": "Friday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-12-26T01:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "LAR",
+      "homeTeam": "SEA",
+      "stadium": "SEA",
+      "network": "Fox",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-229",
+      "week": 16,
+      "dateET": "2026-12-27",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-27T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "CLE",
+      "homeTeam": "BAL",
+      "stadium": "BAL",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-230",
+      "week": 16,
+      "dateET": "2026-12-27",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-27T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "LAC",
+      "homeTeam": "MIA",
+      "stadium": "MIA",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-231",
+      "week": 16,
+      "dateET": "2026-12-27",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-27T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "ARI",
+      "homeTeam": "NO",
+      "stadium": "NO",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-232",
+      "week": 16,
+      "dateET": "2026-12-27",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2026-12-27T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "NE",
+      "homeTeam": "NYJ",
+      "stadium": "NYJ",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-233",
+      "week": 16,
+      "dateET": "2026-12-27",
+      "day": "Sunday",
+      "kickoffET": "4:05 PM",
+      "kickoffUTC": "2026-12-27T21:05:00Z",
+      "status": "scheduled",
+      "awayTeam": "TEN",
+      "homeTeam": "LV",
+      "stadium": "LV",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-234",
+      "week": 16,
+      "dateET": "2026-12-27",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2026-12-27T21:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "SF",
+      "homeTeam": "KC",
+      "stadium": "KC",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-235",
+      "week": 16,
+      "dateET": "2026-12-27",
+      "day": "Sunday",
+      "kickoffET": "8:20 PM",
+      "kickoffUTC": "2026-12-28T01:20:00Z",
+      "status": "scheduled",
+      "awayTeam": "JAX",
+      "homeTeam": "DAL",
+      "stadium": "DAL",
+      "network": "NBC",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-236",
+      "week": 16,
+      "dateET": "2026-12-28",
+      "day": "Monday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2026-12-29T01:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "NYG",
+      "homeTeam": "DET",
+      "stadium": "DET",
+      "network": "ESPN",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-237",
+      "week": 16,
+      "dateET": "2026-12-27",
+      "day": "Sunday",
+      "kickoffET": null,
+      "kickoffUTC": null,
+      "status": "scheduled",
+      "awayTeam": "TB",
+      "homeTeam": "ATL",
+      "stadium": "ATL",
+      "network": "NFL Network",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-238",
+      "week": 16,
+      "dateET": "2026-12-27",
+      "day": "Sunday",
+      "kickoffET": null,
+      "kickoffUTC": null,
+      "status": "scheduled",
+      "awayTeam": "CIN",
+      "homeTeam": "IND",
+      "stadium": "IND",
+      "network": "NFL Network",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-239",
+      "week": 16,
+      "dateET": "2026-12-27",
+      "day": "Sunday",
+      "kickoffET": null,
+      "kickoffUTC": null,
+      "status": "scheduled",
+      "awayTeam": "WAS",
+      "homeTeam": "MIN",
+      "stadium": "MIN",
+      "network": "NFL Network",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-240",
+      "week": 16,
+      "dateET": "2026-12-27",
+      "day": "Sunday",
+      "kickoffET": null,
+      "kickoffUTC": null,
+      "status": "scheduled",
+      "awayTeam": "CAR",
+      "homeTeam": "PIT",
+      "stadium": "PIT",
+      "network": "NFL Network",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-241",
+      "week": 17,
+      "dateET": "2026-12-31",
+      "day": "Thursday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2027-01-01T01:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "BAL",
+      "homeTeam": "CIN",
+      "stadium": "CIN",
+      "network": "Amazon",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-242",
+      "week": 17,
+      "dateET": "2027-01-03",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2027-01-03T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "NO",
+      "homeTeam": "ATL",
+      "stadium": "ATL",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-243",
+      "week": 17,
+      "dateET": "2027-01-03",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2027-01-03T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "SEA",
+      "homeTeam": "CAR",
+      "stadium": "CAR",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-244",
+      "week": 17,
+      "dateET": "2027-01-03",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2027-01-03T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "IND",
+      "homeTeam": "CLE",
+      "stadium": "CLE",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-245",
+      "week": 17,
+      "dateET": "2027-01-03",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2027-01-03T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "NYG",
+      "homeTeam": "DAL",
+      "stadium": "DAL",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-246",
+      "week": 17,
+      "dateET": "2027-01-03",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2027-01-03T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "BUF",
+      "homeTeam": "MIA",
+      "stadium": "MIA",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-247",
+      "week": 17,
+      "dateET": "2027-01-03",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2027-01-03T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "MIN",
+      "homeTeam": "NYJ",
+      "stadium": "NYJ",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-248",
+      "week": 17,
+      "dateET": "2027-01-03",
+      "day": "Sunday",
+      "kickoffET": "1:00 PM",
+      "kickoffUTC": "2027-01-03T18:00:00Z",
+      "status": "scheduled",
+      "awayTeam": "PIT",
+      "homeTeam": "TEN",
+      "stadium": "TEN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-249",
+      "week": 17,
+      "dateET": "2027-01-03",
+      "day": "Sunday",
+      "kickoffET": "4:05 PM",
+      "kickoffUTC": "2027-01-03T21:05:00Z",
+      "status": "scheduled",
+      "awayTeam": "LV",
+      "homeTeam": "ARI",
+      "stadium": "ARI",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-250",
+      "week": 17,
+      "dateET": "2027-01-03",
+      "day": "Sunday",
+      "kickoffET": "4:25 PM",
+      "kickoffUTC": "2027-01-03T21:25:00Z",
+      "status": "scheduled",
+      "awayTeam": "DET",
+      "homeTeam": "CHI",
+      "stadium": "CHI",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-251",
+      "week": 17,
+      "dateET": "2027-01-03",
+      "day": "Sunday",
+      "kickoffET": "8:20 PM",
+      "kickoffUTC": "2027-01-04T01:20:00Z",
+      "status": "scheduled",
+      "awayTeam": "PHI",
+      "homeTeam": "SF",
+      "stadium": "SF",
+      "network": "NBC",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-252",
+      "week": 17,
+      "dateET": "2027-01-04",
+      "day": "Monday",
+      "kickoffET": "8:15 PM",
+      "kickoffUTC": "2027-01-05T01:15:00Z",
+      "status": "scheduled",
+      "awayTeam": "HOU",
+      "homeTeam": "GB",
+      "stadium": "GB",
+      "network": "ESPN",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": false
+    },
+    {
+      "gameId": "2026-253",
+      "week": 17,
+      "dateET": "2027-01-03",
+      "day": "Sunday",
+      "kickoffET": null,
+      "kickoffUTC": null,
+      "status": "scheduled",
+      "awayTeam": "WAS",
+      "homeTeam": "JAX",
+      "stadium": "JAX",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-254",
+      "week": 17,
+      "dateET": "2027-01-03",
+      "day": "Sunday",
+      "kickoffET": null,
+      "kickoffUTC": null,
+      "status": "scheduled",
+      "awayTeam": "KC",
+      "homeTeam": "LAC",
+      "stadium": "LAC",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-255",
+      "week": 17,
+      "dateET": "2027-01-03",
+      "day": "Sunday",
+      "kickoffET": null,
+      "kickoffUTC": null,
+      "status": "scheduled",
+      "awayTeam": "DEN",
+      "homeTeam": "NE",
+      "stadium": "NE",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-256",
+      "week": 17,
+      "dateET": "2027-01-03",
+      "day": "Sunday",
+      "kickoffET": null,
+      "kickoffUTC": null,
+      "status": "scheduled",
+      "awayTeam": "LAR",
+      "homeTeam": "TB",
+      "stadium": "TB",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-257",
+      "week": 18,
+      "dateET": "2027-01-10",
+      "day": "Sunday",
+      "kickoffET": null,
+      "kickoffUTC": null,
+      "status": "scheduled",
+      "awayTeam": "LAC",
+      "homeTeam": "DEN",
+      "stadium": "DEN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-258",
+      "week": 18,
+      "dateET": "2027-01-10",
+      "day": "Sunday",
+      "kickoffET": null,
+      "kickoffUTC": null,
+      "status": "scheduled",
+      "awayTeam": "DET",
+      "homeTeam": "GB",
+      "stadium": "GB",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-259",
+      "week": 18,
+      "dateET": "2027-01-10",
+      "day": "Sunday",
+      "kickoffET": null,
+      "kickoffUTC": null,
+      "status": "scheduled",
+      "awayTeam": "TEN",
+      "homeTeam": "HOU",
+      "stadium": "HOU",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-260",
+      "week": 18,
+      "dateET": "2027-01-10",
+      "day": "Sunday",
+      "kickoffET": null,
+      "kickoffUTC": null,
+      "status": "scheduled",
+      "awayTeam": "JAX",
+      "homeTeam": "IND",
+      "stadium": "IND",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-261",
+      "week": 18,
+      "dateET": "2027-01-10",
+      "day": "Sunday",
+      "kickoffET": null,
+      "kickoffUTC": null,
+      "status": "scheduled",
+      "awayTeam": "LV",
+      "homeTeam": "KC",
+      "stadium": "KC",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-262",
+      "week": 18,
+      "dateET": "2027-01-10",
+      "day": "Sunday",
+      "kickoffET": null,
+      "kickoffUTC": null,
+      "status": "scheduled",
+      "awayTeam": "SEA",
+      "homeTeam": "LAR",
+      "stadium": "LAR",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-263",
+      "week": 18,
+      "dateET": "2027-01-10",
+      "day": "Sunday",
+      "kickoffET": null,
+      "kickoffUTC": null,
+      "status": "scheduled",
+      "awayTeam": "CHI",
+      "homeTeam": "MIN",
+      "stadium": "MIN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-264",
+      "week": 18,
+      "dateET": "2027-01-10",
+      "day": "Sunday",
+      "kickoffET": null,
+      "kickoffUTC": null,
+      "status": "scheduled",
+      "awayTeam": "MIA",
+      "homeTeam": "NE",
+      "stadium": "NE",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-265",
+      "week": 18,
+      "dateET": "2027-01-10",
+      "day": "Sunday",
+      "kickoffET": null,
+      "kickoffUTC": null,
+      "status": "scheduled",
+      "awayTeam": "TB",
+      "homeTeam": "NO",
+      "stadium": "NO",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-266",
+      "week": 18,
+      "dateET": "2027-01-10",
+      "day": "Sunday",
+      "kickoffET": null,
+      "kickoffUTC": null,
+      "status": "scheduled",
+      "awayTeam": "PHI",
+      "homeTeam": "NYG",
+      "stadium": "NYG",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-267",
+      "week": 18,
+      "dateET": "2027-01-10",
+      "day": "Sunday",
+      "kickoffET": null,
+      "kickoffUTC": null,
+      "status": "scheduled",
+      "awayTeam": "DAL",
+      "homeTeam": "WAS",
+      "stadium": "WAS",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-268",
+      "week": 18,
+      "dateET": "2027-01-10",
+      "day": "Sunday",
+      "kickoffET": null,
+      "kickoffUTC": null,
+      "status": "scheduled",
+      "awayTeam": "SF",
+      "homeTeam": "ARI",
+      "stadium": "ARI",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-269",
+      "week": 18,
+      "dateET": "2027-01-10",
+      "day": "Sunday",
+      "kickoffET": null,
+      "kickoffUTC": null,
+      "status": "scheduled",
+      "awayTeam": "PIT",
+      "homeTeam": "BAL",
+      "stadium": "BAL",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-270",
+      "week": 18,
+      "dateET": "2027-01-10",
+      "day": "Sunday",
+      "kickoffET": null,
+      "kickoffUTC": null,
+      "status": "scheduled",
+      "awayTeam": "NYJ",
+      "homeTeam": "BUF",
+      "stadium": "BUF",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-271",
+      "week": 18,
+      "dateET": "2027-01-10",
+      "day": "Sunday",
+      "kickoffET": null,
+      "kickoffUTC": null,
+      "status": "scheduled",
+      "awayTeam": "ATL",
+      "homeTeam": "CAR",
+      "stadium": "CAR",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    },
+    {
+      "gameId": "2026-272",
+      "week": 18,
+      "dateET": "2027-01-10",
+      "day": "Sunday",
+      "kickoffET": null,
+      "kickoffUTC": null,
+      "status": "scheduled",
+      "awayTeam": "CLE",
+      "homeTeam": "CIN",
+      "stadium": "CIN",
+      "network": "TBD",
+      "scores": {
+        "away": null,
+        "home": null
+      },
+      "flexible": true
+    }
+  ]
+}

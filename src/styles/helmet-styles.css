@@ -1,0 +1,80 @@
+/* Helmet artwork */
+.team-mark.helmet-team-mark {
+  width: 105px;
+  height: 125px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+
+  flex: 0 0 185px;
+
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.team-mark.helmet-team-mark.small {
+  width: 52px;
+  height: 46px;
+  flex-basis: 52px;
+}
+
+.helmet-image {
+  width: 100px;
+  height: 100px;
+
+  display: block;
+
+  object-fit: contain;
+
+  filter: drop-shadow(0 9px 12px rgba(0, 0, 0, 0.48));
+
+  user-select: none;
+}
+
+.helmet-image-fallback {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  border: 2px solid #54739a;
+  border-radius: 50%;
+  color: #dce9f7;
+  background: #18304d;
+  font-family: Oswald, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.featured-helmet {
+  width: 190px;
+  height: 148px;
+  margin-bottom: 8px;
+  display: grid;
+  place-items: center;
+}
+
+.featured-helmet .helmet-image {
+  width: 100%;
+  height: 100%;
+}
+
+.team-choice .helmet-team-mark {
+  margin-right: 6px;
+}
+
+/* Package 1.2 scoped helmet fixes */
+
+.splash-leader-row .helmet-image {
+  width: 28px !important;
+  height: 28px !important;
+}
+
+.approval-player .helmet-image {
+  width: 32px !important;
+  height: 32px !important;
+}

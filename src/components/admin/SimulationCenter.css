@@ -1,0 +1,68 @@
+.simulation-actions {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-bottom: 18px;
+}
+.simulation-actions button {
+  min-height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid #3879c8;
+  border-radius: 12px;
+  color: #fff;
+  background: #153a67;
+  font-weight: 800;
+}
+.simulation-actions .danger {
+  border-color: #8e4050;
+  background: #4b202b;
+}
+.simulation-actions .restore {
+  border-color: #90752e;
+  background: #493b18;
+}
+.simulation-game-panel,
+.simulation-log {
+  padding: 22px;
+  margin-bottom: 18px;
+}
+.simulation-form {
+  display: grid;
+  grid-template-columns: 2fr repeat(3, 1fr);
+  gap: 14px;
+  margin: 18px 0;
+}
+.simulation-form label {
+  display: grid;
+  gap: 6px;
+  color: #8fa6bd;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.simulation-form input,
+.simulation-form select {
+  min-height: 44px;
+  padding: 0 12px;
+  border: 1px solid #355d88;
+  border-radius: 8px;
+  color: #fff;
+  background: #0b1d31;
+}
+.simulation-log > div:not(.panel-heading) {
+  padding: 10px 0;
+  border-top: 1px solid var(--line);
+  color: #b7c9da;
+}
+.simulation-log p { color: #849bb2; }
+@media (max-width: 1000px) {
+  .simulation-actions { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 800px) {
+  .simulation-actions,
+  .simulation-form { grid-template-columns: 1fr; }
+  .simulation-actions button { min-height: 58px; }
+}

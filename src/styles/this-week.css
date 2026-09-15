@@ -1,0 +1,89 @@
+.this-week-card {
+  grid-column: 2;
+  grid-row: 2;
+  padding: 24px 28px;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  font-size: 110%;
+}
+
+.brand-text small {
+  white-space: nowrap;
+}
+
+.week-stat-grid {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: 1px solid rgba(135, 172, 214, 0.24);
+}
+
+.week-stat-grid > div {
+  min-height: 145px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid rgba(135, 172, 214, 0.24);
+  border-bottom: 1px solid rgba(135, 172, 214, 0.24);
+  color: #8eb5ff;
+}
+
+.week-stat-grid > div:nth-child(even) {
+  border-right: 0;
+}
+.week-stat-grid strong {
+  margin: 6px 0;
+  color: white;
+  font-family: Oswald, sans-serif;
+  font-size: 3.1rem;
+  line-height: 1;
+}
+.week-stat-grid span {
+  color: #a1b2c4;
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.week-stat-grid .green-stat,
+.week-stat-grid .green-stat strong {
+  color: var(--green);
+}
+.week-stat-grid .gold-stat,
+.week-stat-grid .gold-stat strong {
+  color: var(--gold);
+}
+
+.next-lock-panel {
+  margin-top: 22px;
+  padding-top: 20px;
+  display: flex;
+  gap: 14px;
+  border-top: 1px solid rgba(135, 172, 214, 0.25);
+  color: #a8bdd4;
+}
+.next-lock-panel div {
+  display: flex;
+  flex-direction: column;
+}
+.next-lock-panel span {
+  color: #9eb0c3;
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.next-lock-panel strong {
+  margin: 5px 0;
+  color: var(--gold);
+  font-family: Oswald, sans-serif;
+  font-size: 1.45rem;
+}
+.next-lock-panel small {
+  color: #8196aa;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+}

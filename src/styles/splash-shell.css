@@ -1,0 +1,78 @@
+.splash-screen {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 520px;
+  color: #eaf2fb;
+  background: #06111f;
+}
+
+.splash-stage {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  padding: 26px 22px 132px;
+  background-image: url('/stadium-command-center.png');
+  background-position: center;
+  background-size: cover;
+  isolation: isolate;
+}
+
+.splash-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(90deg, rgba(2, 9, 18, 0.42), rgba(3, 12, 24, 0.08) 50%, rgba(2, 9, 18, 0.35)),
+    linear-gradient(0deg, rgba(2, 8, 16, 0.46), transparent 44%, rgba(2, 8, 16, 0.42));
+}
+
+.splash-logo {
+  position: relative;
+  z-index: 5;
+  padding: 0;
+}
+
+.splash-content-container {
+  width: 100%;
+  height: calc(100vh - 182px);
+  min-height: 730px;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: minmax(460px, 1fr) minmax(460px, 1fr);
+  grid-template-rows: minmax(330px, 0.9fr) minmax(390px, 1fr);
+  column-gap: clamp(90px, 15vw, 300px);
+  row-gap: 18px;
+  align-items: stretch;
+}
+
+.splash-card {
+  border: 2px solid rgba(82, 166, 255, 0.72);
+  border-radius: 18px;
+  background: linear-gradient(145deg, rgba(9, 32, 55, 0.97), rgba(4, 17, 32, 0.94));
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.55), inset 0 1px rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(16px);
+}
+
+.splash-card-heading {
+  min-height: 54px;
+  padding-bottom: 14px;
+  display: grid;
+  grid-template-columns: 30px 1fr auto;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid rgba(133, 177, 227, 0.3);
+  color: #8bb6ff;
+}
+
+.splash-card-heading strong {
+  color: white;
+  font-family: Oswald, Inter, sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.splash-card-heading span {
+  color: #9eb0c3;
+  font-size: 0.78rem;
+}

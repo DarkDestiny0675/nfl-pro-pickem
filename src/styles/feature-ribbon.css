@@ -1,0 +1,40 @@
+.splash-feature-ribbon {
+  position: absolute;
+  right: 22px;
+  bottom: 18px;
+  left: 22px;
+  z-index: 5;
+  min-height: 96px;
+  padding: 14px 18px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 2px solid rgba(86, 166, 255, 0.56);
+  border-radius: 16px;
+  background: linear-gradient(145deg, rgba(10, 34, 58, 0.96), rgba(4, 18, 34, 0.93));
+  box-shadow: 0 22px 65px rgba(0, 0, 0, 0.58);
+  backdrop-filter: blur(18px);
+}
+
+.splash-feature-ribbon > div {
+  padding: 7px 22px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-right: 1px solid rgba(137, 177, 222, 0.25);
+  color: #5594ff;
+}
+.splash-feature-ribbon > div:last-child { border-right: 0; }
+.splash-feature-ribbon span { display: flex; flex-direction: column; }
+.splash-feature-ribbon strong {
+  color: white;
+  font-family: Oswald, sans-serif;
+  font-size: 0.94rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.splash-feature-ribbon small {
+  margin-top: 5px;
+  color: #9fb1c3;
+  font-size: 0.72rem;
+  line-height: 1.35;
+}
