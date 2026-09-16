@@ -8,7 +8,7 @@ const configuredBaseUrl = import.meta.env.VITE_API_BASE_URL?.replace(/\/$/, "");
 
 const API_BASE_URLS = [
   configuredBaseUrl,
-  "https://nfl.pickem.api.elahforgestudios.com/api",
+  "https://nfl-pickem-api.elahforgestudios.com/api",
 ].filter(Boolean);
 
 async function readError(response) {
