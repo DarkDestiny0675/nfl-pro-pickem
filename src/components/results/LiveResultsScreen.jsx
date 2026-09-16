@@ -1,4 +1,6 @@
+import { useState } from "react";
 import { Check, Clock3, RefreshCw, X } from "lucide-react";
+import { syncSportsDataIOWeek } from "../../services/liveResultsService";
 import "./LiveResultsScreen.css";
 
 function normalizeStatus(value) {
@@ -75,7 +77,6 @@ function TeamScore({ name, score, selected, winner }) {
     >
       <span>{name}</span>
       <strong>{score ?? "-"}</strong>
-      {/*selected && <em>Your Pick</em>*/}
     </div>
   );
 }
@@ -86,13 +87,39 @@ export default function LiveResultsScreen({
   error,
   onRefresh,
   weekNumber = 1,
+  seasonID = 1,
 }) {
+  const [syncing, setSyncing] = useState(false);
+  const [syncMessage, setSyncMessage] = useState("");
+  const [syncError, setSyncError] = useState("");
   const games = results?.games ?? [];
   const lastSync = games
     .map((game) => game.lastScoreSyncUtc)
     .filter(Boolean)
     .sort()
     .at(-1);
+
+  async function handleScoreRefresh() {
+    if (syncing) return;
+    setSyncing(true);
+    setSyncMessage("");
+    setSyncError("");
+    try {
+      const response = await syncSportsDataIOWeek(seasonID, weekNumber);
+      const result = response?.result ?? response?.Result ?? response;
+      const updated = result?.updatedGames ?? result?.UpdatedGames ?? 0;
+      const unmatched = result?.unmatchedEvents ?? result?.UnmatchedEvents ?? 0;
+      setSyncMessage(
+        `Score sync completed. ${updated} game${updated === 1 ? "" : "s"} updated${unmatched ? `; ${unmatched} unmatched` : ""}.`,
+      );
+      await onRefresh?.();
+    } catch (requestError) {
+      setSyncError(requestError?.message || "Score synchronization failed.");
+    } finally {
+      setSyncing(false);
+    }
+  }
+
   return (
     <>
       <div className="page-heading split-heading">
@@ -117,13 +144,22 @@ export default function LiveResultsScreen({
         <button
           className="secondary-button"
           type="button"
-          onClick={() => onRefresh()}
-          disabled={loading}
+          onClick={handleScoreRefresh}
+          disabled={loading || syncing}
         >
-          <RefreshCw size={18} className={loading ? "refresh-spin" : ""} />{" "}
-          Refresh
+          <RefreshCw
+            size={18}
+            className={loading || syncing ? "refresh-spin" : ""}
+          />{" "}
+          {syncing ? "Syncing Scores..." : "Refresh Scores"}
         </button>
       </div>
+
+      {syncMessage && <div className="notice">{syncMessage}</div>}
+      {syncError && (
+        <div className="notice purple">Score sync failed: {syncError}</div>
+      )}
+
       <div className="live-summary-grid">
         <Summary
           label="Leading"
@@ -146,6 +182,7 @@ export default function LiveResultsScreen({
           tone="gold"
         />
       </div>
+
       {loading && (
         <div className="notice">
           <Clock3 size={18} /> Loading live results...
@@ -161,6 +198,7 @@ export default function LiveResultsScreen({
       {!loading && !error && games.length === 0 && (
         <div className="notice">No Week {weekNumber} games are available.</div>
       )}
+
       <section className="live-results-list">
         {games.map((game) => {
           const state = pickState(game);
