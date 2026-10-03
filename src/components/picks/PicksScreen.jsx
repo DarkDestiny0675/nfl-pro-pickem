@@ -14,6 +14,23 @@ import { loadUserSession } from "../../services/sessionService";
 import { normalizeApiGame } from "../../utils/gameUtils";
 import "./PicksScreen.css";
 
+const LOCKED_GAME_STATUSES = new Set([
+  "locked",
+  "inprogress",
+  "final",
+  "canceled",
+  "postponed",
+  "suspended",
+]);
+
+function isGameLocked(game, readOnly = false) {
+  const status = String(game?.status || "")
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, "");
+  return readOnly || LOCKED_GAME_STATUSES.has(status);
+}
+
 export default function PicksScreen(props) {
   const {
     games,
@@ -116,10 +133,14 @@ export default function PicksScreen(props) {
   const tbGuess = selectedState?.tieBreakerGuess ?? tieBreakerGuess;
   const tbLocked = selectedState?.tieBreakerLocked ?? tieBreakerLocked;
   const total = displayGames.length;
-  const selectedCount = displayGames.filter((g) => displayPicks[g.id]).length;
+  const openGames = displayGames.filter((game) => !isGameLocked(game, readOnly));
+  const openSelectedCount = openGames.filter((game) => displayPicks[game.id]).length;
+  const lockedWithoutPickCount = displayGames.filter(
+    (game) => isGameLocked(game, readOnly) && !displayPicks[game.id],
+  ).length;
   const ready =
     total > 0 &&
-    selectedCount === total &&
+    openSelectedCount === openGames.length &&
     (!tbRequired || (tbGuess !== "" && Number(tbGuess) >= 0));
 
   async function saveAlternate(game, side) {
@@ -192,13 +213,13 @@ export default function PicksScreen(props) {
             <div>
               <span>Your Progress</span>
               <strong>
-                {selectedCount} of {total} selected
+                {openSelectedCount} of {openGames.length} open games selected
               </strong>
             </div>
             <div className="progress-track">
               <div
                 style={{
-                  width: `${total ? (selectedCount / total) * 100 : 0}%`,
+                  width: `${openGames.length ? (openSelectedCount / openGames.length) * 100 : 100}%`,
                 }}
               />
             </div>
@@ -232,16 +253,7 @@ export default function PicksScreen(props) {
       )}
       <section className="game-list">
         {displayGames.map((game) => {
-          const locked =
-            readOnly ||
-            [
-              "locked",
-              "InProgress",
-              "Final",
-              "Canceled",
-              "Postponed",
-              "Suspended",
-            ].includes(game.status);
+          const locked = isGameLocked(game, readOnly);
           const selected = displayPicks[game.id];
           return (
             <article
@@ -334,12 +346,14 @@ export default function PicksScreen(props) {
                 ? `Week ${displayWeekNumber} Picks Modified`
                 : displaySubmitted
                   ? `Week ${displayWeekNumber} Picks Submitted`
-                  : `${selectedCount} of ${total} picks ready`}
+                  : `${openSelectedCount} of ${openGames.length} open picks ready`}
             </strong>
             <span>
               {displaySubmitted
                 ? "Open matchups remain editable. Changes require re-submission."
-                : "Review your selections before submitting."}
+                : lockedWithoutPickCount > 0
+                  ? `${lockedWithoutPickCount} locked matchup${lockedWithoutPickCount === 1 ? " is" : "s are"} excluded from submission.`
+                  : "Review your selections before submitting."}
             </span>
           </div>
           <button
